@@ -1,2 +1,2 @@
 # Developpeurs
-Documentation développeurs de DataSud.fr
+Documentation de l'IDG IDGO d'OPenIG'
