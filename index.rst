@@ -1,8 +1,8 @@
-Bienvenue dans la documentation de DataSud
+Bienvenue dans la documentation de la plateforme d'OPenIG
 =============================================
 
 Cette documentation est organisée en plusieurs guides, chacun correspondant à un usage particulier de la plateforme.
-Le catalogue des données et des ressources disponibles sont amenés à évoluer avec la version 2 de DataSud disponible depuis le 13 décembre 2018.
+Le catalogue des données et des ressources disponibles sont amenés à évoluer en permanence.
 
 .. toctree::
   :maxdepth: 3
@@ -19,4 +19,4 @@ Le catalogue des données et des ressources disponibles sont amenés à évoluer
 
 .. note::
 
-   Ces guides sont maintenus par l'équipe Datasud. 
+   Ces guides sont maintenus par l'équipe d'OPenIG.
