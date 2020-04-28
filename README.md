@@ -1,2 +1,2 @@
 # Developpeurs
-Documentation de l'IDG IDGO d'OPenIG'
+Documentation de l'IDG IDGO d'OPenIG
