@@ -21,4 +21,4 @@ Le catalogue des données et des ressources disponibles sont amenés à évoluer
 
    Ces guides sont maintenus par l'équipe d'OPenIG.
 
-Plop !
+Plop ! Je modifie sur Github !
