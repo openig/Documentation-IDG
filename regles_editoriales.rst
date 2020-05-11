@@ -1,9 +1,9 @@
 ==================
-Régles éditoriales
+Régles éditoriales dev
 ==================
 
 --------------------------------
-Règles de nommage des ressources 
+Règles de nommage des ressources
 --------------------------------
 
 Selon les recommandations en matière de nommage des fichiers électroniques et de plan de classement, nous vous proposons de respecter les règles suivantes relatives aux intitulés des ressources (fichiers) associées à vos jeux de données :
@@ -57,10 +57,10 @@ Pour créer une liste non ordonnée ::
 
    * Pommes
    * Poires
-   
+
 
 * Pommes
-* Poires  
+* Poires
 
 === Image ====
 
@@ -81,7 +81,7 @@ Pour créer des liens ::
 
 [Trouver des données sur Datasud.fr](https://trouver.datasud.fr)
 
- 
+
 === Aller plus loin ===
 
 https://fr.wikipedia.org/wiki/Markdown
@@ -92,15 +92,15 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 
 --------------------------------------
-Les outils  pour nettoyer vos données 
+Les outils  pour nettoyer vos données
 --------------------------------------
 
 [La méthode infolabs pour produire un CSV de qualité](http://infolabs.io/prod-csv)
 
 [l'Outil de validation des données ouvertes Validata](https://validata.fr/)
 
-[Nettoyer les CSV avec CSVLint (en Anglais)](http://csvlint.io) 
+[Nettoyer les CSV avec CSVLint (en Anglais)](http://csvlint.io)
 
-https://goodtables.io/ 
+https://goodtables.io/
 
 http://openrefine.org/
