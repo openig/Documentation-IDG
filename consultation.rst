@@ -10,7 +10,7 @@ Les consultations des données ouvertes, géographiques et intelligentes sont li
 Ceci ne concerne pas les données diffusées sur accès retreints, pour lesquelles les producteurs ont volontairement limité leur téléchargement à certains utilisateurs. Toutefois ces jeux de données apparaissent au catalogue général pour porter à connaissance des publics l'existence de ces données. Pour les consulter il faut en faire la demande directement au producteur.
 
 -------------------------------------------
-Rechercher des données sur DataSud
+Rechercher des données sur OPenIG
 -------------------------------------------
 
 Pour de meilleurs résultats, DataSud permet de « filtrer » les données, d'effectuer des recherches par thématique, selon la fréquence de mise à jour, par format ou uniquement les jeux de données associés à une organisation.
