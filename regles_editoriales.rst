@@ -1,5 +1,5 @@
 ==================
-Régles éditoriales dev
+Régles éditoriales
 ==================
 
 --------------------------------
@@ -77,9 +77,9 @@ Vous pouvez afficher une image dans vos descriptifs. Attention, la taille n'est 
 Pour créer des liens ::
 
    [texte du lien](url_du_lien "texte pour le titre, facultatif")
-   https://trouver.datasud.fr (automatique si mon url commence par http ou https).
+   https://ckan.openig.org (automatique si mon url commence par http ou https).
 
-[Trouver des données sur Datasud.fr](https://trouver.datasud.fr)
+[Trouver des données sur www.openig.org](https://ckan.openig.org)
 
 
 === Aller plus loin ===
