@@ -27,7 +27,7 @@ L’ensemble de ces « filtres » peuvent être cumulés pour affiner les résul
 
 - *>> Liste des thématiques OPenIG* https://ckan.openig.org/group
 
-- *>> Liste des réutilisations recensées à partir des données publiées OPenIG* https://ckan.openig.org/showcase
+- *>> Liste des réutilisations recensées à partir des données publiées d'OPenIG* https://ckan.openig.org/showcase
 
 Il n'y a pas d'inscription préalable pour accéder aux jeux de données et aux ressources diffusés en "Open Data".
 
