@@ -49,11 +49,11 @@ Toute demande de création d'une organisation est soumise à l'administrateur du
 
 La dénomination sociale est obligatoire
 
-.. image:: Creation_orga1.png
+.. image:: Creation_orga1.PNG
 
 La description est facultative mais fortement conseillée, d'une part pour permettre de qualifier l'Organisation et sa démarche en matière d'ouverture des données publiques et géographiques et d'autre part pour permettre l'implementation automatique d'une page web spécifique à propos de l'organisation.
 
-.. image:: Creation_orga2.png
+.. image:: Creation_orga2.PNG
 
 
 ----------------------------------------------
