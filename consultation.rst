@@ -27,7 +27,7 @@ L’ensemble de ces « filtres » peuvent être cumulés pour affiner les résul
 
 - *>> Liste des thématiques OPenIG* https://ckan.openig.org/group
 
-- *>> Liste des réutilisations recensées à partir des données publiées OPenIG* https://ckan.openig.org/showcase
+- *>> Liste des réutilisations recensées à partir des données publiées d'OPenIG* https://ckan.openig.org/showcase
 
 Il n'y a pas d'inscription préalable pour accéder aux jeux de données et aux ressources diffusés en "Open Data".
 
@@ -35,8 +35,6 @@ Dans le respect des conditions générales d’utilisation d'OPenIG, chaque jeux
 
 `« Voir le passage sur le Cadre légal et réglementaire » <https://openig.readthedocs.io/fr/latest/cadre_legal.html#>`_
 
-Si vous recherchez un jeu de donnée qui ne figure pas au catalogue d'OPenIG, vous pouvez utiliser le service de "demande de données" Toute demande sera étudiée et une réponse vous sera apportée. Nous relayerons le cas échéant votre demande à la collectivité ou à l'organisme concerné.
-
-  **Vous pouvez déposer une demande d'accès à un document administratif ou à un jeu de données relatif au territoire régional à l'adresse suivante : https://www.datasud.fr/demande-de-donnees**
+Si vous recherchez un jeu de donnée qui ne figure pas au catalogue d'OPenIG, vous pouvez nous solliciter à l'adresse contact@openig.org Toute demande sera étudiée et une réponse vous sera apportée. Nous relayerons le cas échéant votre demande à la collectivité ou à l'organisme concerné.
 
 `« Voir le passage sur la demande de documents administratif » <https://openig.readthedocs.io/fr/latest/cadre_legal.html#faire-une-demande-d-acces-a-un-document-administratif-ou-a-des-donnees>`_
