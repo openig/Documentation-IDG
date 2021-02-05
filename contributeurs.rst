@@ -49,11 +49,11 @@ Toute demande de création d'une organisation est soumise à l'administrateur du
 
 La dénomination sociale est obligatoire
 
-.. image:: Creation_orga1.PNG
+.. image:: Creation_orga1_openig.png
 
 La description est facultative mais fortement conseillée, d'une part pour permettre de qualifier l'Organisation et sa démarche en matière d'ouverture des données publiques et géographiques et d'autre part pour permettre l'implementation automatique d'une page web spécifique à propos de l'organisation.
 
-.. image:: Creation_orga2.PNG
+.. image:: Creation_orga2_openig.png
 
 
 ----------------------------------------------
@@ -63,7 +63,7 @@ Editer la page d'une Organisation
 
 Pour éditer la page de son organisation, le Contributeur clique sur l'onglet ORGANISATIONS dans son espace d'administration.
 
-.. image:: Onglet_organisation.PNG
+.. image:: Onglet_organisation_openig.png
 
 La première fois que le contributeur édite la page de son organisation, il lui sera demandé de définir le territoire de compétence de l'organisation. La création de ce territoire de compétences permet de bénéficier de fonctionnalités spatiales supplémentaires dans DataSud. Cette demande est traitée par un administrateur du CRIGE.
 
