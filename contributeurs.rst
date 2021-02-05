@@ -3,8 +3,8 @@ Espace contributeurs
 ====================
 
 
-Ce guide est destiné aux producteurs de données, déjà inscrit en tant qu'Utilisateurs https://publier.datasud.fr/ et souhaitant contribuer à l'enrichissement des publications sur la plateforme.
-`« voir la documentation sur les Utilisateurs » <https://datasud.readthedocs.io/fr/latest/utilisateurs.html/>`_ 
+Ce guide est destiné aux producteurs de données, déjà inscrit en tant qu'Utilisateurs https://idgo.openig.org/ et souhaitant contribuer à l'enrichissement des publications sur la plateforme.
+`« voir la documentation sur les Utilisateurs » <https://openig.readthedocs.io/fr/latest/utilisateurs.html/>`_
 
 .. note:: Toute personne, morale ou physique, publique ou privée, producteur de données publiques ou privées peut les publier sur la DataSud, sous reserve d'accepter les « conditions d’utilisation » et de respecter la réglementation sur les données à caractères personnelles.
 
@@ -14,7 +14,7 @@ Devenir Contributeur et Référent pour une organisation
 
 Les organisations sont le plus souvent des personnes morales (autorités administratives, associations, entreprises) ou également des groupes informels.
 
-.. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur de DataSud, soit après la validation de votre profil Utilisateur par les Administrateurs de DataSud. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu!** 
+.. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur d'OPenIG, soit après la validation de votre profil Utilisateur par les Administrateurs d'OPenIG. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu!**
 
 .. image:: DataSudFirstConnect.PNG
 
@@ -61,7 +61,7 @@ Editer la page d'une Organisation
 ----------------------------------------------
 
 
-Pour éditer la page de son organisation, le Contributeur clique sur l'onglet ORGANISATIONS dans son espace d'administration. 
+Pour éditer la page de son organisation, le Contributeur clique sur l'onglet ORGANISATIONS dans son espace d'administration.
 
 .. image:: Onglet_organisation.PNG
 
@@ -77,7 +77,7 @@ Publier un jeu de données
 
 .. image:: InscriptionDataSud.PNG
 
-**La publication se fait en deux étapes successives:** 
+**La publication se fait en deux étapes successives:**
 
 Tout d'abord on renseigne les métadonnées servant à définir ou décrire le jeu de données qui sera publié, puis on ajoute des jeux de données brutes ou des ressources complémentaires.
 
@@ -121,10 +121,10 @@ Etape n°2 : Publier une ressource
 
 Il existe quatre manières différentes d'ajouter un jeu de données :
 
-**1.	Téléverser manuellement un fichier depuis votre poste local:** 
+**1.	Téléverser manuellement un fichier depuis votre poste local:**
 
 A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données DataSud;
- 
+
 .. image:: Upload_ressources.PNG
 
 Le **Titre** de votre fichier est automatiquement recopié, mais il est possible de modifier manuellement le nommage de ce jeu de donnée.
@@ -137,11 +137,11 @@ il faut préciser si le jeu de donnée est disponible en tant que Données brute
 
 **2.	Télécharger un jeu de donnée depuis une URL de téléchargement :**
 
-Dans ce cas, Datasud va télécharger la ressource pour l'ajouter dans l’entrepôt de données; 
+Dans ce cas, Datasud va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
 
 .. image:: Upload_ressources_URL.PNG
 
-Ce mode de publication permet de synchroniser la ressource distante, selon une périodicité régulière à indiquer : 
+Ce mode de publication permet de synchroniser la ressource distante, selon une périodicité régulière à indiquer :
 
 * Jamais
 * Quotidienne (tous les jours à minuit)
@@ -152,7 +152,7 @@ Ce mode de publication permet de synchroniser la ressource distante, selon une p
 
 Par exemple, un fichier transport.zip peut-être synchronisé sur DataSud directement grace à son URL de téléchargement.
 
-.. note:: Quelques précautions à prendre pour que la synchronisation s'active correctement : 
+.. note:: Quelques précautions à prendre pour que la synchronisation s'active correctement :
 
 * le nom de votre fichier doit avoir **exactement** le même nommage de fichier pour toute la synchronisation : si un script modifie le nom du fichier (pour rajouter une date ou autre par exemple), la synchronisation ne fonctionnera pas.
 
@@ -162,7 +162,7 @@ En cas d'erreur, les Administrateurs de DATASUD se chargeront de vous indiquer q
 
 **3.	Référencer une URL:**
 
-Dans ce cas, la ressource n'est pas téléchargée dans DataSud et vous indiquez précisement l'adresse URL de téléchargement de la donnée. qui reste hebergée chez son producteur. 
+Dans ce cas, la ressource n'est pas téléchargée dans DataSud et vous indiquez précisement l'adresse URL de téléchargement de la donnée. qui reste hebergée chez son producteur.
 Cette donnée apparait au catalogue de DataSud mais elle n'est pas hébergée dans son entrepot.
 
 .. image:: Upload_ressources_ref_URL.PNG
@@ -183,9 +183,9 @@ La publication des données sur Datasud, dans un format ouvert et interprétable
 
 Le format CSV est le format pivot à privilégier pour transformer vos données tabulaires en données semi-structurées dites "intelligentes" afin que le datastore génère des datavisualisations simples sous forme de grille, de graphe ou de carte.
 
-Des données intelligentes permettent également d'en automatiser l'accès par API ( Application Programming Interface) : 
-L'accessibilité des données par interface de programmation est une condition nécessaire pour massifier et industrialiser les usages qui peuvent être fait de ces dernières. 
-Les données indexées dans le datastore sont ensuite "requetables" directement à travers l'API à travers une série de fonctionnalités puissantes. 
+Des données intelligentes permettent également d'en automatiser l'accès par API ( Application Programming Interface) :
+L'accessibilité des données par interface de programmation est une condition nécessaire pour massifier et industrialiser les usages qui peuvent être fait de ces dernières.
+Les données indexées dans le datastore sont ensuite "requetables" directement à travers l'API à travers une série de fonctionnalités puissantes.
 ( voir la présentation de l'API CKan : http://datasud.readthedocs.io/fr/latest/developpeurs/index.html#service-api-ckan)
 
 **Vos jeux de données doivent être préparés pour être proprement indexés dans le datastore :**
@@ -196,12 +196,12 @@ Les données indexées dans le datastore sont ensuite "requetables" directement 
 * Restreindre vos titres de colonnes à moins de 62 caractères.
 * Ne pas doublonner le titre d'une colonne.
 * En théorie les caractères spéciaux ('\:.,( -') sont acceptés, mais c'est beaucoup mieux de les éviter dans les titres.
-* Harmoniser le type de vos données (et oui vos données sont typées!) : en effet si une colonne ne comporte que des chiffres, le datastore autodéterminera le type de cette colonne comme étant un nombre. Or il suffit qu'une cellule de la colonne contienne l'entrée N/A, pour que le datastore génére une erreur. 
+* Harmoniser le type de vos données (et oui vos données sont typées!) : en effet si une colonne ne comporte que des chiffres, le datastore autodéterminera le type de cette colonne comme étant un nombre. Or il suffit qu'une cellule de la colonne contienne l'entrée N/A, pour que le datastore génére une erreur.
 Pour éviter les erreurs de type, il est préférable de les corriger avant d'indexer le jeu de donnée dans DataSud ou bien de transformer la valeur des cellules en cellules au format TEXTE. Cela n'est pas satisfaisant, mais ca fonctionne.
 
 * ERREUR : En cas d'erreur supprimez complètement la ressource associée au jeu de données et ajoutez en une nouvelle.
 
-.. Note:: **Attention avec Excel** 
+.. Note:: **Attention avec Excel**
 * lorque le fichier contient plusieurs feuillet (ou onglet), seule la dernière feuille de calcul est indexée dans le datastore. Il est donc nécessaire de déplacer la feuille de calcul contenant les données que vous souhaitez indexer dans le datastore en dernière place de votre tableur.
 
 * si vous ne voulez pas indexer vos données dans le datastore (pour plein de bonnes et mauvaises raisons), il suffit d'ajouter une feuille de calcul vide en dernière place de votre tableur. ::
@@ -211,7 +211,7 @@ Pour éviter les erreurs de type, il est préférable de les corriger avant d'in
 Géolocalisation des données tabulaires (XLS et CSV)
 -----------------------------------------------------
 
-Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées. 
+Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées.
 Pour cela vous devez intituler deux colonnes du tableau "latitude" et "longitude".
 
 Projections : en cours de rédaction.
@@ -240,7 +240,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 **Mise en place de la procédure :**
 
--	**ETAPE 1:** Chaque contributeur crée une organisation sur DataGouv avec un compte utilisateur en son nom. `« INSCRIPTION sur DataGouv » <https://www.data.gouv.fr/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2F>`_ 
+-	**ETAPE 1:** Chaque contributeur crée une organisation sur DataGouv avec un compte utilisateur en son nom. `« INSCRIPTION sur DataGouv » <https://www.data.gouv.fr/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2F>`_
 - Ce compte utilisateur doit être adminsitrateur de l'organisation.
 -	**ETAPE 2:** Un point de moissonnage est déclaré depuis l’interface d’administration DataGouv. Cette procédure est détaillée ci-après.
 -	**ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs CRIGE et Région de DataSud en écrivant à contact@datasud.fr**.
@@ -266,11 +266,9 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - L'identifiant est celui de votre url organisation sur DataSud.
 - Exemple 1 https://trouver.datasud.fr/organization/avignon -> Identifiant avignon
 - example 2 https://trouver.datasud.fr/organization/smo-sud-thd -> identifiant smo-sud-thd
-- Cochez la case ACTIF. 
+- Cochez la case ACTIF.
 - CLiquez sur **ENREGISTRER.**
 - **Fin de l'étape 2.**
 
 
 .. image:: CaptureMoissonneur3.PNG
-
-
