@@ -2,7 +2,7 @@
 Table des matières détaillée
 ============================
 
-Rechercher des données sur DataSud
+Rechercher des données sur OPenIG
 
 Faire une demande d’accès à un document administratif ou à des données
 
@@ -10,9 +10,9 @@ Les licences
 
 Espace utilisateurs
 
-S’inscrire sur DataSud
+S’inscrire sur OPenIG
 
-Comment participer à DataSud ?
+Comment participer à OPenIG ?
 
 Espace producteurs
 
@@ -37,8 +37,8 @@ Service API Ckan Requêter l’API CKAN Catalogue Requêter l’API CKAN DATA Co
 conditions générales
 
 .. toctree:
-Espace consultation  
-Espace utilisateurs 
+Espace consultation
+Espace utilisateurs
   	Espace producteurs
   	Espace developpeurs/index
   	cgu
