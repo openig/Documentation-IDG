@@ -6,13 +6,6 @@ Cadre légal et réglementaire
 Le statut juridique des données publiées sur OPenIG
 ----------------------------------------------------
 
-Dans le cadre de leurs démarches d’ouverture des données publiques, la Région Provence Alpes Côte-d'Azur et le CRIGE ont fait le choix de licences de réutilisation à titre gratuit.
-Ce choix est conforme au décret n°2017-638 prévu par l’article L323-2 du Code des Relations entre le Public et l’Administration (CRPA) dans lequel la licence Open Data Base License (ODbL) de l'Open Knowledge Foundation et la licence ouverte / open licence sont promues.
-
-Conformément aux objectifs d’une politique d’accès libre aux données publiques, ces licences définissent les droits et les devoirs des réutilisateurs des données du portail DataSud.
-Le type de licence applicable (ODbL ou licence ouverte/open licence) est précisé sur chaque jeu de données. L’accès à un jeu de données vaut validation des conditions de la licence associé à ce jeu.
-A noter que seuls les textes complets des contrats de licence font foi.
-
 ----------------------
 Connaître les Licences
 ----------------------
