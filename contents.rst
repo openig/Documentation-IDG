@@ -12,7 +12,7 @@ Espace utilisateurs
 
 S’inscrire sur OPenIG
 
-Comment participer à DataSud ?
+Comment participer à OPenIG ?
 
 Espace producteurs
 
