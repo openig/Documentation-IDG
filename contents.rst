@@ -2,7 +2,7 @@
 Table des matières détaillée
 ============================
 
-Rechercher des données sur DataSud
+Rechercher des données sur OPenIG
 
 Faire une demande d’accès à un document administratif ou à des données
 
@@ -16,7 +16,7 @@ Comment participer à OPenIG ?
 
 Espace producteurs
 
-Devenir Contributeur sur DataSud pour une organisation Productrice de donnée* Comment devenir Contributeur et Réferent ?
+Devenir Contributeur sur OPenIG pour une organisation Productrice de données* Comment devenir Contributeur et Référent ?
 
 Publier un jeu de données
 
