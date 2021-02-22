@@ -20,7 +20,7 @@ S'inscrire sur OPenIG
 
 .. image:: OPenIGInscription.png
 
-- l'Utilisateur doit ensuite valider son inscription en cliquant sur le lien reçu par courriel, sur sa boite aux lettres de courrier electronique.
+- l'Utilisateur doit ensuite valider son inscription en cliquant sur le lien reçu par courriel, sur sa boite aux lettres de courrier électronique.
 
 -------------------------------------------
 Participer à OPenIG
