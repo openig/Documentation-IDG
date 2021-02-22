@@ -16,7 +16,7 @@ Comment participer à OPenIG ?
 
 Espace producteurs
 
-Devenir Contributeur sur DataSud pour une organisation Productrice de donnée* Comment devenir Contributeur et Réferent ?
+Devenir Contributeur sur OPenIG pour une organisation Productrice de données* Comment devenir Contributeur et Référent ?
 
 Publier un jeu de données
 
