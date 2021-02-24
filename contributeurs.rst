@@ -16,9 +16,9 @@ Les organisations sont le plus souvent des personnes morales (autorités adminis
 
 .. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur d'OPenIG, soit après la validation de votre profil Utilisateur par les Administrateurs d'OPenIG. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu!**
 
-.. image:: DataSudFirstConnect.PNG
+.. image:: OPenIGFirstConnect.PNG
 
-.. image:: DemandeOrga.PNG
+.. image:: DemandeOrgOPenIG.PNG
 
 
 .. note:: **Par défaut, un Utilisateur qui s'inscrit avec un email personnel (gmail, ymail, hotmail,...) et dont le nom de domaine ne peut correspondre à l'organisation pour laquelle il demande de contribuer, ne peut se rattacher, contribuer ou devenir référent d'une Organisation**
@@ -65,7 +65,7 @@ Pour éditer la page de son organisation, le Contributeur clique sur l'onglet OR
 
 .. image:: Onglet_organisation.PNG
 
-La première fois que le contributeur édite la page de son organisation, il lui sera demandé de définir le territoire de compétence de l'organisation. La création de ce territoire de compétences permet de bénéficier de fonctionnalités spatiales supplémentaires dans DataSud. Cette demande est traitée par un administrateur du CRIGE.
+La première fois que le contributeur édite la page de son organisation, il lui sera demandé de définir le territoire de compétence de l'organisation. La création de ce territoire de compétences permet de bénéficier de fonctionnalités spatiales supplémentaires dans OPenIG. Cette demande est traitée par un administrateur de la plateforme.
 
 .. image:: Territoire_competence.PNG
 
