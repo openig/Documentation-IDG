@@ -67,7 +67,7 @@ Pour éditer la page de son organisation, le Contributeur clique sur l'onglet OR
 
 La première fois que le contributeur édite la page de son organisation, il lui sera demandé de définir le territoire de compétence de l'organisation. La création de ce territoire de compétences permet de bénéficier de fonctionnalités spatiales supplémentaires dans OPenIG. Cette demande est traitée par un administrateur de la plateforme.
 
-.. image:: Territoire_competence.PNG
+.. image:: Territoire_competence_OPenIG.PNG
 
 --------------------------
 Publier un jeu de données
@@ -75,7 +75,7 @@ Publier un jeu de données
 
 * Pour publier un jeu de donner le Contributeur se connecte avec son identifiant et mot de passe sur https://idgo.openig.org
 
-.. image:: InscriptionDataSud.PNG
+.. image:: InscriptionOPenIG.PNG
 
 **La publication se fait en deux étapes successives:**
 
@@ -85,6 +85,8 @@ Tout d'abord on renseigne les métadonnées servant à définir ou décrire le j
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Etape n°1 : Renseigner les métadonnées
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**1.	Métadonnées simplifiées **
 
 .. image:: Edit_newdataset1_OPenIG.PNG
 
@@ -114,6 +116,9 @@ Etape n°1 : Renseigner les métadonnées
 - Fréquence de mise à jour
 - Couverture régionale
 
+**2.	Métadonnées INSPIRE **
+
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Etape n°2 : Publier une ressource
@@ -121,7 +126,7 @@ Etape n°2 : Publier une ressource
 
 Il existe quatre manières différentes d'ajouter un jeu de données :
 
-**1.	Téléverser manuellement un fichier depuis votre poste local:**
+**1.	Téléverser manuellement un fichier depuis votre poste local :**
 
 A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données d'OPenIG;
 
@@ -160,20 +165,32 @@ Par exemple, un fichier transport.zip peut-être synchronisé sur OPenIG directe
 
 En cas d'erreur, les administrateurs d'OPenIG se chargeront de vous indiquer que la synchronisation ne fonctionne pas ou plus.
 
-**3.	Référencer une URL:**
+**3.	Référencer une URL :**
 
 Dans ce cas, la ressource n'est pas téléchargée dans OPenIG et vous indiquez précisement l'adresse URL de téléchargement de la donnée qui reste hebergée chez son producteur.
 Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans son entrepot.
 
 .. image:: Upload_ressources_ref_URL_OPenIG.PNG
 
-**4.	Dépot FTP:**
+**4.	Dépot FTP :**
 
 Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donnée et avec ses identifiants. Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante.
 
 .. image:: Upload_ressources_FTP_OPenIG.PNG
 
 .. note:: Il peut arriver que la connexion au serveur FTP ne fonctionne pas lorsque le Proxy de votre organisation bloque l’accès au compte FTP; Veuillez pour cela tester la connexion à partir d’un autre point d’accès internet sans Proxy ( depuis un smartphone ou une connexion internet personnelle).
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Styliser une couche
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**Créer un style directement dans l'interface**
+
+
+
+**Créer un style avec un SLD**
+
+
 
 --------------------------------------------------
 Mettre à jour un jeu de données ou une ressource
