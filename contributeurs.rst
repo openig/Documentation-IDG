@@ -86,7 +86,7 @@ Tout d'abord on renseigne les métadonnées servant à définir ou décrire le j
 Etape n°1 : Renseigner les métadonnées
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**1.	Métadonnées simplifiées **
+**1.	Métadonnées simplifiées**
 
 .. image:: Edit_newdataset1_OPenIG.PNG
 
@@ -116,7 +116,7 @@ Etape n°1 : Renseigner les métadonnées
 - Fréquence de mise à jour
 - Couverture régionale
 
-**2.	Métadonnées INSPIRE **
+**2.	Métadonnées INSPIRE**
 
 
 
