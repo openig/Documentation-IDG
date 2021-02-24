@@ -4,9 +4,9 @@ Espace contributeurs
 
 
 Ce guide est destiné aux producteurs de données, déjà inscrit en tant qu'Utilisateurs https://idgo.openig.org/ et souhaitant contribuer à l'enrichissement des publications sur la plateforme.
-`« voir la documentation sur les Utilisateurs » <https://openig.readthedocs.io/fr/latest/utilisateurs.html/>`_
+`« Voir la documentation sur les Utilisateurs » <https://openig.readthedocs.io/fr/latest/utilisateurs.html>`_
 
-.. note:: Toute personne, morale ou physique, publique ou privée, producteur de données publiques ou privées peut les publier sur la DataSud, sous reserve d'accepter les « conditions d’utilisation » et de respecter la réglementation sur les données à caractères personnelles.
+.. note:: Toute personne, morale ou physique, publique ou privée, producteur de données publiques ou privées peut les publier sur OPenIG, sous reserve d'accepter les « conditions d’utilisation » et de respecter la réglementation sur les données à caractères personnelles.
 
 -----------------------------------------------------------------------------
 Devenir Contributeur et Référent pour une organisation
@@ -88,7 +88,7 @@ Etape n°1 : Renseigner les métadonnées
 
 .. image:: Edit_newdataset1_OPenIG.PNG
 
-.. note:: De nombreux mots-clés sont déjà répertoriés dans la base. Ils apparaissent dans une liste déroulante lorsque vous saisissez les premières lettres du mot. Mieux vaut choisir un mot clés existant, plutot que d'en choisir un nouveau afin de permettre de relier votre jeu de donnée à d'autres jeux similaires inscrit au catalogue d'OPenIG.
+.. note:: De nombreux mots-clés sont déjà répertoriés dans la base. Ils apparaissent dans une liste déroulante lorsque vous saisissez les premières lettres du mot. Mieux vaut choisir un mot clé existant, plutot que d'en choisir un nouveau afin de permettre de relier votre jeu de donnée à d'autres jeux similaires inscrits au catalogue d'OPenIG.
 
 .. image:: Edit_newdataset2_OPenIG.PNG
 
@@ -123,7 +123,7 @@ Il existe quatre manières différentes d'ajouter un jeu de données :
 
 **1.	Téléverser manuellement un fichier depuis votre poste local:**
 
-A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données OPenIG;
+A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données d'OPenIG;
 
 .. image:: Upload_ressources_OPenIG.PNG
 
@@ -137,7 +137,7 @@ Il faut préciser si le jeu de donnée est disponible en tant que Données brute
 
 **2.	Télécharger un jeu de donnée depuis une URL de téléchargement :**
 
-Dans ce cas, OPenIG va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
+Dans ce cas, IDGO va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
 
 .. image:: Upload_ressources_URL_OPenIG.PNG
 
@@ -162,16 +162,46 @@ En cas d'erreur, les administrateurs d'OPenIG se chargeront de vous indiquer que
 
 **3.	Référencer une URL:**
 
-Dans ce cas, la ressource n'est pas téléchargée dans OPenIG et vous indiquez précisement l'adresse URL de téléchargement de la donnée. qui reste hebergée chez son producteur.
+Dans ce cas, la ressource n'est pas téléchargée dans OPenIG et vous indiquez précisement l'adresse URL de téléchargement de la donnée qui reste hebergée chez son producteur.
 Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans son entrepot.
 
 .. image:: Upload_ressources_ref_URL_OPenIG.PNG
 
 **4.	Dépot FTP:**
 
-Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donnée et avec ses identifiants. Les fichiers qui se trouvent sur le compte SFTP apparaîtront dans la liste déroulante.
+Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donnée et avec ses identifiants. Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante.
 
 .. image:: Upload_ressources_FTP_OPenIG.PNG
+
+.. note:: Il peut arriver que la connexion au serveur FTP ne fonctionne pas lorsque le Proxy de votre organisation bloque l’accès au compte FTP; Veuillez pour cela tester la connexion à partir d’un autre point d’accès internet sans Proxy ( depuis un smartphone ou une connexion internet personnelle).
+
+--------------------------------------------------
+Mettre à jour un jeu de données ou une ressource
+--------------------------------------------------
+
+Les données publiées peuvent être mises à jour après leur publication, que la modification porte sur un jeu données dans son ensemble, ou sur l’une des ressources qu’il contient (Données brutes ou ressources associées).
+
+.. image:: Edit_donnees_OPenIG.PNG
+
+L’actualisation d’une ressource existante permet d’en mettre à jour le contenu sans changer l’emplacement qui lui est assigné, c’est-à-dire son lien hypertexte (aussi appelé URL). Le fait d’actualiser une ressource (plutôt que de la supprimer et d’en créer ensuite une nouvelle) permet de conserver l’historique des téléchargements de cette ressource. Cela évite aussi de créer des liens rompus sur Internet, qui meneront à une erreur HTTP 404, vu que la page web n’existera plus et sera introuvable par le serveur.
+
+--------------------------------------------------
+Supprimer un ensemble de donnée et / ou une ressource
+--------------------------------------------------
+
+Aller sur le site https://idgo.openig.org et rechercher vos jeux de données;
+
+Il est possible de supprimer un ensemble de données (Dataset) comprenant les metadonnées; ou seulement les ressources et fichiers brutes associés à un ensemble de données. Pour cela selectionner l’ensemble de données que vous souhaitez supprimer.
+
+.. image:: Supp_donnees_OPenIG.PNG
+
+Pour confirmer, veuillez réécrire le nom du jeu de données à supprimer.
+
+.. image:: Supp2_donnees_OPenIG.PNG
+
+Il est recomandé de Copier le titre de l’ensemble de donnée (Ctrl C) afin de conserver la même orthographe, puis coller ce titre dans la fenêtre qui s’affichera suite à la confirmation de la suppression.
+
+Attention, cette action est irreversible et supprimera définitivement le jeu de données ainsi que toutes les ressources qui lui sont attachées.
 
 --------------------------------------------------
 Datastore et données intelligentes
