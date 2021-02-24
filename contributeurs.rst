@@ -73,7 +73,7 @@ La première fois que le contributeur édite la page de son organisation, il lui
 Publier un jeu de données
 --------------------------
 
-* Pour publier un jeu de donner le Contributeur se connecte avec son identifiant et mot de passe sur https://publier.datasud.fr
+* Pour publier un jeu de donner le Contributeur se connecte avec son identifiant et mot de passe sur https://idgo.openig.org
 
 .. image:: InscriptionDataSud.PNG
 
@@ -86,13 +86,13 @@ Tout d'abord on renseigne les métadonnées servant à définir ou décrire le j
 Etape n°1 : Renseigner les métadonnées
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: Edit_newdataset1.PNG
+.. image:: Edit_newdataset1_OPenIG.PNG
 
-.. note:: De nombreux mots-clés sont déjà répertoriés dans la base. Ils apparaissent dans une liste déroulante lorsque vous saisissez les premières lettres du mot. Mieux vaut choisir un mot clés existant, plutot que d'en choisir un nouveau afin de permettre de relier votre jeu de donnée à d'autres jeux similaires inscrit au catalogue de DataSud.
+.. note:: De nombreux mots-clés sont déjà répertoriés dans la base. Ils apparaissent dans une liste déroulante lorsque vous saisissez les premières lettres du mot. Mieux vaut choisir un mot clés existant, plutot que d'en choisir un nouveau afin de permettre de relier votre jeu de donnée à d'autres jeux similaires inscrit au catalogue d'OPenIG.
 
-.. image:: Edit_newdataset2.PNG
+.. image:: Edit_newdataset2_OPenIG.PNG
 
-.. image:: Edit_newdataset3.PNG
+.. image:: Edit_newdataset3_OPenIG.PNG
 
 **Les métadonnées obligatoires sont les suivantes :**
 
@@ -100,7 +100,7 @@ Etape n°1 : Renseigner les métadonnées
 - Organisation à laquelle est rattaché ce jeu de données
 - Descriptif  : C'est un champ incontournable pour garantir une bonne réutilisation, car une donnée bien décrite est une donnée bien réutilisée !
 - Dates de création, de dernière modification et de publication : la valeur par défaut indique la date du jour et la date de modification se met à jour automatiquement lorsque vous enregistrez des modifications sur les ressources.
-- Licence : Selectionner une licence parmi celles qui sont proposées: Creative Commons attribution 4.0; Licence ouverte V2.0; Creative Commons cc-by-nc-nd 3.0, Open data base Licence V1.0 ou une Licence Spécifique.
+- Licence : Selectionner une licence parmi celles qui sont proposées: Licence APLC; Creative Commons (Attribution); Creative Commons (Attribution Share-Alike); Creative Commons (CCZERO); Licence ouverte V2.0; Open Data Commons (Attribution); Open Data Commons (ODbL) ou une autre Licence (Ouverte ou Spécifique).
 
 
 
@@ -123,23 +123,23 @@ Il existe quatre manières différentes d'ajouter un jeu de données :
 
 **1.	Téléverser manuellement un fichier depuis votre poste local:**
 
-A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données DataSud;
+A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données OPenIG;
 
-.. image:: Upload_ressources.PNG
+.. image:: Upload_ressources_OPenIG.PNG
 
 Le **Titre** de votre fichier est automatiquement recopié, mais il est possible de modifier manuellement le nommage de ce jeu de donnée.
 
-.. image:: Upload_ressources1.PNG
+.. image:: Upload_ressources1_OPenIG.PNG
 
 
-Le format du fichier est automatiquement reconnu par DataSud.
-il faut préciser si le jeu de donnée est disponible en tant que Données brutes ou si c'est une documentation associée au jeu de donnée pour permettre aux visiteurs de DataSud d'avoir des informations complémentaires ( plaquettes de communications, affiches, photographie, site internet....)
+Le format du fichier est automatiquement reconnu par IDGO.
+Il faut préciser si le jeu de donnée est disponible en tant que Données brutes ou si c'est une documentation associée au jeu de données pour permettre aux visiteurs d'OPenIG d'avoir des informations complémentaires (plaquettes de communication, affiches, photographie, site internet....)
 
 **2.	Télécharger un jeu de donnée depuis une URL de téléchargement :**
 
-Dans ce cas, Datasud va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
+Dans ce cas, OPenIG va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
 
-.. image:: Upload_ressources_URL.PNG
+.. image:: Upload_ressources_URL_OPenIG.PNG
 
 Ce mode de publication permet de synchroniser la ressource distante, selon une périodicité régulière à indiquer :
 
@@ -150,7 +150,7 @@ Ce mode de publication permet de synchroniser la ressource distante, selon une p
 * Trimestrielle ( 1er des mois de Janvier, Avril, Juillet et  Octobre)
 * Annuelle (1er Janvier)
 
-Par exemple, un fichier transport.zip peut-être synchronisé sur DataSud directement grace à son URL de téléchargement.
+Par exemple, un fichier transport.zip peut-être synchronisé sur OPenIG directement grace à son URL de téléchargement.
 
 .. note:: Quelques précautions à prendre pour que la synchronisation s'active correctement :
 
@@ -158,20 +158,20 @@ Par exemple, un fichier transport.zip peut-être synchronisé sur DataSud direct
 
 * votre fichier doit être accessible via une URL fixe : évitez les liens temporaires.::
 
-En cas d'erreur, les Administrateurs de DATASUD se chargeront de vous indiquer que la synchronisation ne fonctionne pas ou plus.
+En cas d'erreur, les administrateurs d'OPenIG se chargeront de vous indiquer que la synchronisation ne fonctionne pas ou plus.
 
 **3.	Référencer une URL:**
 
-Dans ce cas, la ressource n'est pas téléchargée dans DataSud et vous indiquez précisement l'adresse URL de téléchargement de la donnée. qui reste hebergée chez son producteur.
-Cette donnée apparait au catalogue de DataSud mais elle n'est pas hébergée dans son entrepot.
+Dans ce cas, la ressource n'est pas téléchargée dans OPenIG et vous indiquez précisement l'adresse URL de téléchargement de la donnée. qui reste hebergée chez son producteur.
+Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans son entrepot.
 
-.. image:: Upload_ressources_ref_URL.PNG
+.. image:: Upload_ressources_ref_URL_OPenIG.PNG
 
 **4.	Dépot FTP:**
 
-il faut activer au préalable le compte FTP en cliquant sur le lien "cliquez ici"
+Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donnée et avec ses identifiants. Les fichiers qui se trouvent sur le compte SFTP apparaîtront dans la liste déroulante.
 
-.. image:: Upload_ressources_FTP.PNG
+.. image:: Upload_ressources_FTP_OPenIG.PNG
 
 --------------------------------------------------
 Datastore et données intelligentes
