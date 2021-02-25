@@ -202,10 +202,10 @@ Il faut ensuite sélectionner la ressource à styliser du jeu de données, l'éd
 
 **Créer un style manuellement**
 
-Manuellement et directement dans l'interface, il est possible de donner un nom pour le style et la classe ainsi que créer :
-- des filtres
-- des représentations (codes hexadécimaux pour la couleur du fond et du contour, choix de l'opacité du fond et de l'épaisseur du contour)
-- des étiquettes
+Manuellement et directement dans l'interface, il est possible de donner un nom pour le style et la classe ainsi que de créer :
+* Des filtres
+* Des représentations (couleur et opacité du fond et couleur et épaisseur du contour)
+* Des étiquettes
 
 .. image:: style_manuel_OPenIG.PNG
 
