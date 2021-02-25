@@ -203,6 +203,7 @@ Il faut ensuite sélectionner la ressource à styliser du jeu de données, l'éd
 **Créer un style manuellement**
 
 Manuellement et directement dans l'interface, il est possible de donner un nom pour le style et la classe ainsi que de créer :
+
 * Des filtres
 * Des représentations (couleur et opacité du fond et couleur et épaisseur du contour)
 * Des étiquettes
