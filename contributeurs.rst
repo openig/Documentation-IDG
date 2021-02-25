@@ -69,6 +69,8 @@ La première fois que le contributeur édite la page de son organisation, il lui
 
 .. image:: Territoire_competence_OPenIG.PNG
 
+.. image:: Territoire_competence2_OPenIG.PNG
+
 --------------------------
 Publier un jeu de données
 --------------------------
@@ -118,7 +120,13 @@ Etape n°1 : Renseigner les métadonnées
 
 **2.	Métadonnées INSPIRE**
 
+Pour pouvoir compléter les métadonnées INSPIRE, il faut sélectionner le jeu de données et choisir "Editer la fiche de métadonnées INSPIRE".
 
+.. image:: INSPIRE_OPenIG.png
+
+Tous les champs à compléter pour respecter la norme INSPIRE seront regroupés dans des rubriques : Auteurs et contacts pour la fiche de métadonnées; description des données; contacts pour la base de données; références géographiques et qualité des données; conditions légales d'accès et d'usage; ressources associées.
+
+.. image:: INSPIRE2_OPenIG.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Etape n°2 : Publier une ressource
@@ -184,13 +192,33 @@ Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donn
 Styliser une couche
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Créer un style directement dans l'interface**
+Pour créer un style pour un jeu de donnée, il faut le sélectionner et "éditer les ressources associées".
 
+.. image:: style_OPenIG.png
 
+Il faut ensuite sélectionner la ressource à styliser du jeu de données, l'éditer et cliquer sur "éditer la ressource géographique" lorsqu'on est sur la page de la ressource. Enfin il faudra choisir l'onglet "Styles" à droite de "Configuration générale".
+
+.. image:: style2_OPenIG.png
+
+**Créer un style manuellement**
+
+Manuellement et directement dans l'interface, il est possible de donner un nom pour le style et la classe ainsi que de créer :
+
+* Des filtres
+* Des représentations (couleur et opacité du fond et couleur et épaisseur du contour)
+* Des étiquettes
+
+.. image:: style_manuel_OPenIG.PNG
 
 **Créer un style avec un SLD**
 
+Il est possible d'importer un SLD créé au préalable pour la ressource. Il suffit de cliquer sur "Importer un SLD" en haut à droite de la fenêtre de style et de coller le fichier SLD.
 
+.. image:: style_sld_OPenIG.PNG
+
+Enfin enregistrez votre style.
+
+.. image:: style2_sld_OPenIG.PNG
 
 --------------------------------------------------
 Mettre à jour un jeu de données ou une ressource
