@@ -218,7 +218,7 @@ Manuellement et directement dans l'interface, il est possible de donner un nom p
 
 .. image:: style_manuel_OPenIG.PNG
 
-A noter que l'utilisateur a, pour tous les styles importés ou créés dans cet interface, la possibilité de les exporter directement en SLD.
+A noter que l'utilisateur a, pour tous les styles importés ou créés dans cette interface, la possibilité de les exporter directement en SLD.
 
 .. image:: style4_sld_OPenIG.png
 
