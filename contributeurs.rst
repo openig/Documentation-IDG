@@ -196,7 +196,15 @@ Pour créer un style pour un jeu de donnée, il faut le sélectionner et "édite
 
 .. image:: style_OPenIG.png
 
-Il faut ensuite sélectionner la ressource à styliser du jeu de données, l'éditer et cliquer sur "éditer la ressource géographique" lorsqu'on est sur la page de la ressource. Enfin il faudra choisir l'onglet "Styles" à droite de "Configuration générale".
+Il faut ensuite sélectionner la ressource à styliser du jeu de données et cliquer sur "editer".
+
+.. image:: editer_donnes_OPenIG.png
+
+Puis cliquer sur "éditer la ressource géographique" lorsqu'on est sur la page de la ressource.
+
+.. image:: editer_donnes2_OPenIG.png
+
+Enfin il faudra choisir l'onglet "Styles" à droite de "Configuration générale".
 
 .. image:: style2_OPenIG.png
 
@@ -210,9 +218,15 @@ Manuellement et directement dans l'interface, il est possible de donner un nom p
 
 .. image:: style_manuel_OPenIG.PNG
 
+A noter que l'utilisateur a, pour tous les styles importés ou créés dans cette interface, la possibilité de les exporter directement en SLD.
+
+.. image:: style4_sld_OPenIG.png
+
 **Créer un style avec un SLD**
 
 Il est possible d'importer un SLD créé au préalable pour la ressource. Il suffit de cliquer sur "Importer un SLD" en haut à droite de la fenêtre de style et de coller le fichier SLD.
+
+.. image:: style3_sld_OPenIG.PNG
 
 .. image:: style_sld_OPenIG.PNG
 
