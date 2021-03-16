@@ -316,7 +316,7 @@ Pour éviter les erreurs de type, il est préférable de les corriger avant d'in
 Faire remonter vos données sur Data.Gouv.fr
 -------------------------------------------------------
 
-La Région, OPenIG et Etalab ont travaillé ensemble afin de permettre aux contributeurs d'OPenIG de faire remonter automatiquement leurs catalogues de données vers la plateforme nationale https://www.data.gouv.fr/fr/. Cette mécanique est aussi appelée "moissonneur" ou "passerelle".
+OPenIG et Etalab ont travaillé ensemble afin de permettre aux contributeurs d'OPenIG de faire remonter automatiquement leurs catalogues de données vers la plateforme nationale https://www.data.gouv.fr/fr/. Cette mécanique est aussi appelée "moissonneur" ou "passerelle".
 
 La procédure est relativemment simple. Il suffit de la mettre en place une fois pour que le catalogue de données d'OPenIG concerné soit ensuite synchronisé quotidiennement sur DataGouv.
 
@@ -330,14 +330,10 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 **Mise en place de la procédure :**
 
--	**ETAPE 1:** Chaque contributeur crée une organisation sur DataGouv avec un compte utilisateur en son nom. `« INSCRIPTION sur DataGouv » <https://www.data.gouv.fr/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2F>`_
+**ETAPE 1:** Chaque contributeur crée une organisation sur DataGouv avec un compte utilisateur en son nom. `« INSCRIPTION sur DataGouv » <https://www.data.gouv.fr/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2F>`_
 - Ce compte utilisateur doit être adminsitrateur de l'organisation.
--	**ETAPE 2:** Un point de moissonnage est déclaré depuis l’interface d’administration DataGouv. Cette procédure est détaillée ci-après.
--	**ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs d'OPenIG en écrivant à contact@openig.org**.
--	**ETAPE 4:** Etalab valide le moissonneur à la demande des administrateurs d'OPenIG.
--	**ETAPE 5:** La synchronisation du catalogue distant est faite une fois par jour (chaque nuit).
 
-**Détails de l'étape 2 : création d'un point de moissonnage sur DataGouv**
+**ETAPE 2: création d'un point de moissonnage sur DataGouv** L'administrateur de l'organisation sur Data.gouv.fr doit déclarer un point de moissonnage depuis l’interface d’administration DataGouv.
 
 - En haut à droite de votre espace d'administration DataGouv, cliquez sur plus, puis AJOUTER un MOISSONNEUR (ecran1).
 
@@ -346,19 +342,18 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT (ecran2).
 
 .. image:: CaptureMoissonneur2.PNG
-
 - C'est ensuite ici que vous renseignez les informations techniques de votre moissonneur.
-- TITRE: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
-- URL : https://ckan.openig.org/dataset
+- **TITRE**: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
+- **URL :** https://ckan.openig.org/dataset
 - **IMPLEMENTATION : CKAN**
-- Il est TRES important de ne pas oublier d'ajouter un filtre. Au risque de moissonner tout OPenIG.
-- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant OPenIG de votre organisation.**
-- L'identifiant est celui de votre url organisation sur OPenIG.
-- Exemple 1 https://ckan.openig.org/organization/departement-du-gard -> Identifiant departement-du-gard
-- example 2 https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant departement-des-pyrenees-orientales
-- Cochez la case ACTIF.
-- Cliquez sur **ENREGISTRER.**
-- **Fin de l'étape 2.**
-
-
+- Il est TRES important de ne pas oublier d'ajouter un filtre, au risque de moissonner tout OPenIG.
+- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant de votre organisation dans OPenIG.** ( il s'agit de l'url de votre organisation sur DataSud)
+Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> Identifiant du département du Gard
+Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant du département des Pyrénées Orientales
 .. image:: CaptureMoissonneur3.PNG
+- Cochez la case **ACTIF**.
+- Cliquez sur **ENREGISTRER.**
+
+**ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs d'OPenIG en écrivant à contact@openig.org**.
+**ETAPE 4:** Etalab valide le moissonneur à la demande des administrateurs d'OPenIG.
+**ETAPE 5:** La synchronisation du catalogue distant est faite une fois par jour (chaque nuit).
