@@ -342,6 +342,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT (ecran2).
 
 .. image:: CaptureMoissonneur2.PNG
+
 - C'est ensuite ici que vous renseignez les informations techniques de votre moissonneur.
 - **TITRE**: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
 - **URL :** https://ckan.openig.org/dataset
@@ -349,11 +350,16 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - Il est TRES important de ne pas oublier d'ajouter un filtre, au risque de moissonner tout OPenIG.
 - **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant de votre organisation dans OPenIG.** ( il s'agit de l'url de votre organisation sur DataSud)
 Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> Identifiant du département du Gard
+
 Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant du département des Pyrénées Orientales
+
 .. image:: CaptureMoissonneur3.PNG
+
 - Cochez la case **ACTIF**.
 - Cliquez sur **ENREGISTRER.**
 
 **ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs d'OPenIG en écrivant à contact@openig.org**.
+
 **ETAPE 4:** Etalab valide le moissonneur à la demande des administrateurs d'OPenIG.
+
 **ETAPE 5:** La synchronisation du catalogue distant est faite une fois par jour (chaque nuit).
