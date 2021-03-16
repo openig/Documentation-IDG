@@ -320,16 +320,16 @@ Le code d'inclusion html et son appel javascript permettent :
 - 3/ De **spécifier comment afficher les résultats** : tri (data_sort), nombre de résultats par page (result_page_size), et intégration d'un vignette (thumbnails_display: true).
 
 
-**Exemples d'intégration :**
+.. **Exemples d'intégration :**
 
-- Sur le site des Parcs Naturels Régionaux :
-http://geo.pnrpaca.org/geoservices/catalogue-de-donnees/
+.. - Sur le site des Parcs Naturels Régionaux :
+.. http://geo.pnrpaca.org/geoservices/catalogue-de-donnees/
 
-- Sur le site internet du Département des Alpes-Maritimes :
-https://www.departement06.fr/l-information-du-departement/opendata-29882.html
+.. - Sur le site internet du Département des Alpes-Maritimes :
+.. https://www.departement06.fr/l-information-du-departement/opendata-29882.html
 
-- Sur le site internet du la ville de Digen les Bains :
-https://www.dignelesbains.fr/coordonnees-et-horaires-de-la-mairie/open-data/
+.. - Sur le site internet du la ville de Digen les Bains :
+.. https://www.dignelesbains.fr/coordonnees-et-horaires-de-la-mairie/open-data/
 
 
 

@@ -326,7 +326,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 - Seules les **métadonnées** sont synchronisées sur DataGouv. Les données restent sur OPenIG (ou ailleurs en fonction de vos choix en matière d'indexation de ressources).
 - Le moissonneur ne prend pas en compte la **suppression** de jeux de données. Chaque contributeur doit supprimer ses jeux de données directement sur DataGouv.
-- Un compte organisation sur DataGouv expose indifféremment les jeux de données créés manuellement sur DataGouv et les jeux de données synchronisés automatiquement depuis DataSud. Attention aux doublons et à la cohérence des jeux de données.
+- Un compte organisation sur DataGouv expose indifféremment les jeux de données créés manuellement sur DataGouv et les jeux de données synchronisés automatiquement depuis OPenIG. Attention aux doublons et à la cohérence des jeux de données.
 
 **Mise en place de la procédure :**
 
@@ -357,7 +357,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - Exemple 1 https://ckan.openig.org/organization/departement-du-gard -> Identifiant departement-du-gard
 - example 2 https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant departement-des-pyrenees-orientales
 - Cochez la case ACTIF.
-- CLiquez sur **ENREGISTRER.**
+- Cliquez sur **ENREGISTRER.**
 - **Fin de l'étape 2.**
 
 
