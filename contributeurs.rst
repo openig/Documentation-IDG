@@ -266,16 +266,16 @@ Attention, cette action est irreversible et supprimera définitivement le jeu de
 Datastore et données intelligentes
 --------------------------------------------------
 
-Datasud propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLS, GeoJSON, SHP**.
+OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLS, GeoJSON, SHP**.
 
-La publication des données sur Datasud, dans un format ouvert et interprétable par une machine, permet leur indexation dans le datastore afin notamment de proposer des apercus, de les filtrer par champs et de les parcourir sans utiliser de tableur dédiés.
+La publication des données sur OPenIG, dans un format ouvert et interprétable par une machine, permet leur indexation dans le datastore afin notamment de proposer des aperçus, de les filtrer par champs et de les parcourir sans utiliser de tableur dédiés.
 
 Le format CSV est le format pivot à privilégier pour transformer vos données tabulaires en données semi-structurées dites "intelligentes" afin que le datastore génère des datavisualisations simples sous forme de grille, de graphe ou de carte.
 
 Des données intelligentes permettent également d'en automatiser l'accès par API ( Application Programming Interface) :
 L'accessibilité des données par interface de programmation est une condition nécessaire pour massifier et industrialiser les usages qui peuvent être fait de ces dernières.
 Les données indexées dans le datastore sont ensuite "requetables" directement à travers l'API à travers une série de fonctionnalités puissantes.
-( voir la présentation de l'API CKan : http://datasud.readthedocs.io/fr/latest/developpeurs/index.html#service-api-ckan)
+( voir la présentation de l'API CKan : https://openig.readthedocs.io/fr/latest/developpeurs/index.html#service-api-ckan)
 
 **Vos jeux de données doivent être préparés pour être proprement indexés dans le datastore :**
 
@@ -286,7 +286,7 @@ Les données indexées dans le datastore sont ensuite "requetables" directement 
 * Ne pas doublonner le titre d'une colonne.
 * En théorie les caractères spéciaux ('\:.,( -') sont acceptés, mais c'est beaucoup mieux de les éviter dans les titres.
 * Harmoniser le type de vos données (et oui vos données sont typées!) : en effet si une colonne ne comporte que des chiffres, le datastore autodéterminera le type de cette colonne comme étant un nombre. Or il suffit qu'une cellule de la colonne contienne l'entrée N/A, pour que le datastore génére une erreur.
-Pour éviter les erreurs de type, il est préférable de les corriger avant d'indexer le jeu de donnée dans DataSud ou bien de transformer la valeur des cellules en cellules au format TEXTE. Cela n'est pas satisfaisant, mais ca fonctionne.
+Pour éviter les erreurs de type, il est préférable de les corriger avant d'indexer le jeu de donnée dans OPenIG ou bien de transformer la valeur des cellules en cellules au format TEXTE. Cela n'est pas satisfaisant, mais ca fonctionne.
 
 * ERREUR : En cas d'erreur supprimez complètement la ressource associée au jeu de données et ajoutez en une nouvelle.
 
@@ -296,34 +296,35 @@ Pour éviter les erreurs de type, il est préférable de les corriger avant d'in
 * si vous ne voulez pas indexer vos données dans le datastore (pour plein de bonnes et mauvaises raisons), il suffit d'ajouter une feuille de calcul vide en dernière place de votre tableur. ::
 
 
------------------------------------------------------
-Géolocalisation des données tabulaires (XLS et CSV)
------------------------------------------------------
+.. -----------------------------------------------------
+.. Géolocalisation des données tabulaires (XLS et CSV)
+.. -----------------------------------------------------
 
-Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées.
-Pour cela vous devez intituler deux colonnes du tableau "latitude" et "longitude".
+.. Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées.
+.. Pour cela vous devez intituler deux colonnes du tableau "latitude" et "longitude".
 
-Projections : en cours de rédaction.
+.. Projections : en cours de rédaction.
 
--------------------------------------------------------
-Renseigner les métadonnées INSPIRE
--------------------------------------------------------
+.. -------------------------------------------------------
+.. Renseigner les métadonnées INSPIRE
+.. -------------------------------------------------------
 
-Cette partie de la documentation est en cours de rédaction par le CRIGE.
+.. Cette partie de la documentation est en cours de rédaction par le CRIGE.
+
 
 -------------------------------------------------------
 Faire remonter vos données sur Data.Gouv.fr
 -------------------------------------------------------
 
-La Région, le CRIGE et Etalab ont travaillé ensemble afin de permettre aux contributeurs DataSud de faire remonter automatiquement leurs catalogues de données vers la plateforme nationale https://www.data.gouv.fr/fr/. Cette mécanique est aussi appelée "moissonneur" ou "passerelle".
+La Région, OPenIG et Etalab ont travaillé ensemble afin de permettre aux contributeurs d'OPenIG de faire remonter automatiquement leurs catalogues de données vers la plateforme nationale https://www.data.gouv.fr/fr/. Cette mécanique est aussi appelée "moissonneur" ou "passerelle".
 
-La procédure est relativemment simple. Il suffit de la mettre en place une fois pour que le catalogue de données DataSud concerné soit ensuite synchronisé quotidiennement sur DataGouv.
+La procédure est relativemment simple. Il suffit de la mettre en place une fois pour que le catalogue de données d'OPenIG concerné soit ensuite synchronisé quotidiennement sur DataGouv.
 
 **Chaque contributeur et organisation reste souverain pour mettre en place ou non une synchronisation de ses données vers DataGouv.**
 
 **Quelques précisions :**
 
-- Seules les **métadonnées** sont synchronisées sur DataGouv. Les données restent sur DataSud (ou ailleurs en fonction de vos choix en matière d'indexation de ressources).
+- Seules les **métadonnées** sont synchronisées sur DataGouv. Les données restent sur OPenIG (ou ailleurs en fonction de vos choix en matière d'indexation de ressources).
 - Le moissonneur ne prend pas en compte la **suppression** de jeux de données. Chaque contributeur doit supprimer ses jeux de données directement sur DataGouv.
 - Un compte organisation sur DataGouv expose indifféremment les jeux de données créés manuellement sur DataGouv et les jeux de données synchronisés automatiquement depuis DataSud. Attention aux doublons et à la cohérence des jeux de données.
 
@@ -332,8 +333,8 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 -	**ETAPE 1:** Chaque contributeur crée une organisation sur DataGouv avec un compte utilisateur en son nom. `« INSCRIPTION sur DataGouv » <https://www.data.gouv.fr/fr/login?next=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2F>`_
 - Ce compte utilisateur doit être adminsitrateur de l'organisation.
 -	**ETAPE 2:** Un point de moissonnage est déclaré depuis l’interface d’administration DataGouv. Cette procédure est détaillée ci-après.
--	**ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs CRIGE et Région de DataSud en écrivant à contact@datasud.fr**.
--	**ETAPE 4:** Etalab valide le moissonneur à la demande des administrateurs de DataSud.
+-	**ETAPE 3:** Une fois créé, chaque contributeur **déclare son moissonneur aux administrateurs d'OPenIG en écrivant à webmestre@openig.org**.
+-	**ETAPE 4:** Etalab valide le moissonneur à la demande des administrateurs d'OPenIG.
 -	**ETAPE 5:** La synchronisation du catalogue distant est faite une fois par jour (chaque nuit).
 
 **Détails de l'étape 2 : création d'un point de moissonnage sur DataGouv**
@@ -347,14 +348,14 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 .. image:: CaptureMoissonneur2.PNG
 
 - C'est ensuite ici que vous renseignez les informations techniques de votre moissonneur.
-- TITRE: Il convient d'ajouter " - DataSud" à votre titre afin de l'identifier plus facilement.
-- URL : https://trouver.datasud.fr/dataset
+- TITRE: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
+- URL : https://ckan.openig.org/dataset
 - **IMPLEMENTATION : CKAN**
-- Il est TRES important de ne pas oublier d'ajouter un filtre. Au risque de moissonner tout DataSud.
-- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant DataSud de votre organisation.**
-- L'identifiant est celui de votre url organisation sur DataSud.
-- Exemple 1 https://trouver.datasud.fr/organization/avignon -> Identifiant avignon
-- example 2 https://trouver.datasud.fr/organization/smo-sud-thd -> identifiant smo-sud-thd
+- Il est TRES important de ne pas oublier d'ajouter un filtre. Au risque de moissonner tout OPenIG.
+- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant OPenIG de votre organisation.**
+- L'identifiant est celui de votre url organisation sur OPenIG.
+- Exemple 1 https://ckan.openig.org/organization/departement-du-gard -> Identifiant departement-du-gard
+- example 2 https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant departement-des-pyrenees-orientales
 - Cochez la case ACTIF.
 - CLiquez sur **ENREGISTRER.**
 - **Fin de l'étape 2.**
