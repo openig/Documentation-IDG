@@ -67,7 +67,7 @@ Cette requête utilise  la méthode datastore_search de l'API de CKAN avec la no
 
 ``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5``
 
-Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5
+.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5
 
 * Trouvez les arrêts de covoiturage dont le champ com_lieu est égal à PERPIGNAN::
 
@@ -75,7 +75,7 @@ Cette requête utilise  la méthode datastore_search de l'API de CKAN avec la no
 
 ``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}``
 
-Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}
+.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}
 
 * Trouver tous les arrêts de covoiturage dans les Pyrénées Orientales qui disposent d'arrêts de bus et de lumière  ::
 
@@ -83,7 +83,7 @@ Cette requête utilise la méthode datastore_search de l'API de CKAN avec la not
 
 ``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}``
 
-Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}
+.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}
 
 * Trouver les points de rencontre avec un nombre de places supérieur à 20 et un nombre de place PMR supérieur à 1 (requête SQL) ::
 
@@ -91,7 +91,7 @@ Cette requête utilise la méthode datastore_search_sql de l'API de CKAN avec la
 
 ``https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'``
 
-Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'
+.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'
 
 
 Documentation de l'API (catalogue et ressources) et de l'API Datastore (requête sur les ressources) en anglais :
