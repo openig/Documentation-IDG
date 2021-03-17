@@ -337,11 +337,11 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 - En haut à droite de votre espace d'administration DataGouv, cliquez sur plus, puis AJOUTER un MOISSONNEUR (ecran1).
 
-.. image:: CaptureMoissonneur1.PNG
+.. image:: Capture_Moissonneur1.PNG
 
 - Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT (ecran2).
 
-.. image:: CaptureMoissonneur2.PNG
+.. image:: Capture_Moissonneur2.PNG
 
 - C'est ensuite ici que vous renseignez les informations techniques de votre moissonneur.
 - **TITRE**: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
@@ -353,7 +353,7 @@ Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> Identifi
 
 Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant du département des Pyrénées Orientales
 
-.. image:: CaptureMoissonneur3.PNG
+.. image:: Capture_Moissonneur3_OPenIG.PNG
 
 - Cochez la case **ACTIF**.
 - Cliquez sur **ENREGISTRER.**
