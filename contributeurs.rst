@@ -14,44 +14,44 @@ Devenir Contributeur et Référent pour une organisation
 
 Les organisations sont le plus souvent des personnes morales (autorités administratives, associations, entreprises) ou également des groupes informels.
 
-.. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur d'OPenIG, soit après la validation de votre profil Utilisateur par les Administrateurs d'OPenIG. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu!**
+.. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur d'OPenIG, soit après la validation de votre profil Utilisateur par les Administrateurs d'OPenIG. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu !**
 
 .. image:: OPenIGFirstConnect.PNG
 
 .. image:: DemandeOrgOPenIG.PNG
 
 
-.. note:: **Par défaut, un Utilisateur qui s'inscrit avec un email personnel (gmail, ymail, hotmail,...) et dont le nom de domaine ne peut correspondre à l'organisation pour laquelle il demande de contribuer, ne peut se rattacher, contribuer ou devenir référent d'une Organisation**
+.. note:: **Par défaut, un Utilisateur qui s'inscrit avec un email personnel (gmail, ymail, hotmail,...) et dont le nom de domaine ne peut correspondre à l'organisation pour laquelle il demande de contribuer, ne peut se rattacher, contribuer ou devenir référent d'une Organisation.**
 
 *Les Administrateurs de la Plateforme se réservent la possibilité de révoquer une inscription, une organisation, un statut de Contributeur ou de Référent, sans avis préalable.*
 
 
 **Un Contributeur dispose des fonctionnalités suivantes :**
 
-* Il peut publier un jeu de données et y ajouter des ressources, sous la forme d’un fichier téléchargeable, d’un lien URL ou d’une API,
-* Il peut accorder le niveau d'accès aux ressources et jeux de données qu'il a crée pour son organisation : soit décider de les rendre accessible à tous, soit en restreindre l'accès uniquement à un ou plusieurs Utilisateurs inscrits ou bien à une Organisation choisie comme sa propre Organisation propriétaire du Jeu de données.
+* Il peut publier un jeu de données et y ajouter des ressources, sous la forme d’un fichier téléchargeable, d’un lien URL ou d’une API.
+* Il peut accorder le niveau d'accès aux ressources et jeux de données qu'il a crée pour son organisation : soit décider de les rendre accessible à tous, soit en restreindre l'accès uniquement à un ou plusieurs Utilisateurs inscrits ou bien à une Organisation choisie comme sa propre organisation propriétaire du jeu de données.
 
 
 **Un Référent des données de l'Organisation, à laquelle il appartient, dispose des fonctionnalités suivantes :**
 
-* Il peut éditer ou supprimer un jeu de données créé et publié par un autre Contributeur de l'Organisation,
-* Il peut accorder le niveau d'accès aux ressources et jeux de données de toutes les publications de son Organisation,
-* Il peut autoriser ou supprimer le statut de Contributeur aux Utilisateurs,
+* Il peut éditer ou supprimer un jeu de données créé et publié par un autre Contributeur de l'Organisation.
+* Il peut accorder le niveau d'accès aux ressources et jeux de données de toutes les publications de son Organisation.
+* Il peut autoriser ou supprimer le statut de Contributeur aux Utilisateurs.
 * Il recoit des notifications lorsque des modifications ont été apportées aux jeux de données et ressources de l'Organisation à laquelle il appartient.
 
 ----------------------------------------------
 Créer une Organisation
 ----------------------------------------------
 
-Toute demande de création d'une organisation est soumise à l'administrateur du site pour validation
+Toute demande de création d'une organisation est soumise à l'administrateur du site pour validation.
 
 .. image:: OPenIGAjoutOrga.png
 
-La dénomination sociale est obligatoire
+La dénomination sociale est obligatoire.
 
 .. image:: Creation_orga1_openig.png
 
-La description est facultative mais fortement conseillée, d'une part pour permettre de qualifier l'Organisation et sa démarche en matière d'ouverture des données publiques et géographiques et d'autre part pour permettre l'implementation automatique d'une page web spécifique à propos de l'organisation.
+La description est facultative mais fortement conseillée, d'une part pour permettre de qualifier l'Organisation et sa démarche en matière d'ouverture des données publiques et géographiques et d'autre part pour permettre l'implémentation automatique d'une page web spécifique à propos de l'organisation.
 
 .. image:: Creation_orga2_openig.png
 
@@ -79,7 +79,7 @@ Publier un jeu de données
 
 .. image:: InscriptionOPenIG.PNG
 
-**La publication se fait en deux étapes successives:**
+**La publication se fait en deux étapes successives :**
 
 Tout d'abord on renseigne les métadonnées servant à définir ou décrire le jeu de données qui sera publié, puis on ajoute des jeux de données brutes ou des ressources complémentaires.
 
@@ -136,7 +136,7 @@ Il existe quatre manières différentes d'ajouter un jeu de données :
 
 **1.	Téléverser manuellement un fichier depuis votre poste local :**
 
-A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données d'OPenIG;
+A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données d'OPenIG.
 
 .. image:: Upload_ressources_OPenIG.PNG
 
@@ -146,11 +146,11 @@ Le **Titre** de votre fichier est automatiquement recopié, mais il est possible
 
 
 Le format du fichier est automatiquement reconnu par IDGO.
-Il faut préciser si le jeu de donnée est disponible en tant que Données brutes ou si c'est une documentation associée au jeu de données pour permettre aux visiteurs d'OPenIG d'avoir des informations complémentaires (plaquettes de communication, affiches, photographie, site internet....)
+Il faut préciser si le jeu de donnée est disponible en tant que Données brutes ou si c'est une documentation associée au jeu de données pour permettre aux visiteurs d'OPenIG d'avoir des informations complémentaires (plaquettes de communication, affiches, photographie, site internet....).
 
 **2.	Télécharger un jeu de donnée depuis une URL de téléchargement :**
 
-Dans ce cas, IDGO va télécharger la ressource pour l'ajouter dans l’entrepôt de données;
+Dans ce cas, IDGO va télécharger la ressource pour l'ajouter dans l’entrepôt de données.
 
 .. image:: Upload_ressources_URL_OPenIG.PNG
 
@@ -167,9 +167,9 @@ Par exemple, un fichier transport.zip peut-être synchronisé sur OPenIG directe
 
 .. note:: Quelques précautions à prendre pour que la synchronisation s'active correctement :
 
-* le nom de votre fichier doit avoir **exactement** le même nommage de fichier pour toute la synchronisation : si un script modifie le nom du fichier (pour rajouter une date ou autre par exemple), la synchronisation ne fonctionnera pas.
+  * le nom de votre fichier doit avoir **exactement** le même nommage de fichier pour toute la synchronisation : si un script modifie le nom du fichier (pour rajouter une date ou autre par exemple), la synchronisation ne fonctionnera pas.
 
-* votre fichier doit être accessible via une URL fixe : évitez les liens temporaires.::
+  * votre fichier doit être accessible via une URL fixe : évitez les liens temporaires.::
 
 En cas d'erreur, les administrateurs d'OPenIG se chargeront de vous indiquer que la synchronisation ne fonctionne pas ou plus.
 
@@ -182,11 +182,15 @@ Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans
 
 **4.	Dépot FTP :**
 
-Il faut se connecter au sFTP avec son logiciel (ex: FileZilla) à l'adresse donnée et avec ses identifiants. Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante.
+Il faut se connecter au sFTP avec son logiciel (ex: FileZilla, voir photo ci-dessous) à l'adresse donnée et avec ses identifiants OPenIG.
+
+.. image:: depot_FTP_Filezilla.PNG
+
+Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante. Ce mode de publication permet de synchroniser la ressource, selon une périodicité régulière à indiquer.
 
 .. image:: Upload_ressources_FTP_OPenIG.PNG
 
-.. note:: Il peut arriver que la connexion au serveur FTP ne fonctionne pas lorsque le Proxy de votre organisation bloque l’accès au compte FTP; Veuillez pour cela tester la connexion à partir d’un autre point d’accès internet sans Proxy ( depuis un smartphone ou une connexion internet personnelle).
+.. note:: Il peut arriver que la connexion au serveur FTP ne fonctionne pas lorsque le Proxy de votre organisation bloque l’accès au compte FTP; Veuillez pour cela tester la connexion à partir d’un autre point d’accès internet sans Proxy (depuis un smartphone ou une connexion internet personnelle).
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Styliser une couche
@@ -335,13 +339,11 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 **ETAPE 2: création d'un point de moissonnage sur DataGouv** L'administrateur de l'organisation sur Data.gouv.fr doit déclarer un point de moissonnage depuis l’interface d’administration DataGouv.
 
-- En haut à droite de votre espace d'administration DataGouv, cliquez sur plus, puis AJOUTER un MOISSONNEUR (ecran1).
+- En haut à droite de votre espace d'administration DataGouv, cliquez sur plus, puis AJOUTER un MOISSONNEUR.
 
 .. image:: Capture_Moissonneur1.PNG
 
-- Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT (ecran2).
-
-.. image:: Capture_Moissonneur2.PNG
+- Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT.
 
 - C'est ensuite ici que vous renseignez les informations techniques de votre moissonneur.
 - **TITRE**: Il convient d'ajouter "- OPenIG" à votre titre afin de l'identifier plus facilement.
