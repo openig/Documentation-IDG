@@ -184,6 +184,13 @@ Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans
 
 Il faut se connecter au sFTP avec son logiciel (ex: FileZilla, voir photo ci-dessous) à l'adresse donnée et avec ses identifiants OPenIG.
 
+.. hint::
+  Dans FileZilla, ajouter un site dans "Gestionnaire de site" avec les paramètres suivants :
+    - Protocole : sFTP
+    - Hôte : sftp.openig.org
+    - Port : 8322
+    - Identifiant : vos identifiants OPenIG
+
 .. image:: depot_FTP_Filezilla.PNG
 
 Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante. Ce mode de publication permet de synchroniser la ressource, selon une périodicité régulière à indiquer.
@@ -252,7 +259,7 @@ L’actualisation d’une ressource existante permet d’en mettre à jour le co
 Supprimer un ensemble de donnée et / ou une ressource
 --------------------------------------------------
 
-Aller sur le site https://idgo.openig.org et rechercher vos jeux de données;
+Aller sur le site https://idgo.openig.org et rechercher vos jeux de données.
 
 Il est possible de supprimer un ensemble de données (Dataset) comprenant les metadonnées; ou seulement les ressources et fichiers brutes associés à un ensemble de données. Pour cela selectionner l’ensemble de données que vous souhaitez supprimer.
 
