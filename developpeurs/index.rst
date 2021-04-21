@@ -333,10 +333,10 @@ Le code d'inclusion html et son appel javascript permettent :
 
 
 
-Web Map Service (WMS)
+Service WMS et WFS
 ===========
 
-Pour obtenir les flux OGC (WMS, WFS...) des données publiées sur OPenIG, il existe plusieurs façons selon le type de service :
+Pour accéder aux flux OGC (Web Map Service et Web Feature Service) des données publiées sur OPenIG, il existe plusieurs façons selon le type de service :
 
 **1. Flux Mapserver**
 
@@ -359,9 +359,14 @@ Une fois que vous avez cliqué, un menu contextuel apparait pour vous donner tou
 Pour une utilisation dans QGIS, il suffit d'ajouter une nouvelle connexion WMS ou WFS en collant l'URL suivante :
  "https://mapserver.openig.org/maps/" + l'identifiant de l'organisation
 
-Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> https://mapserver.openig.org/maps/departement-du-gard
+ L'identifiant d'une organisation peut être facilement récupérer :
+ - Se rendre sur la page : https://ckan.openig.org/organization
+ - Sélectionner l'organisation
+ - Récupérer l'identifiant à la suite de l'URL : https://ckan.openig.org/organization/region-occitanie-pyrenees-mediterranee --> "region-occitanie-pyrenees-mediterranee"
 
-Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> https://mapserver.openig.org/maps/departement-des-pyrenees-orientales
+Exemple 1 : departement-du-gard -> https://mapserver.openig.org/maps/departement-du-gard
+
+Example 2 : departement-des-pyrenees-orientales -> https://mapserver.openig.org/maps/departement-des-pyrenees-orientales
 
 **2. Flux Mapcache**
 
@@ -374,15 +379,8 @@ Les couches sont visibles à partir de l’échelle 1:250’000.
 Le tuilage des couches n’est pas pré-calculé ; il est calculé à l’affichage. C’est pourquoi on peut rencontrer des lenteurs lors des premières utilisations. Les performances s’amélioreront progressivement à l’usage.
 
 Liste des couches disponibles :
-
 .. image:: donnees_mapcache.png
 
-
-
-Web Feature Service (WFS)
-===========
-
-En cours.
 
 Catalogue Service for the web (CSW)
 ===========
