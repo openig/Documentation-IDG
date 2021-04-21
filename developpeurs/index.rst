@@ -379,6 +379,7 @@ Les couches sont visibles à partir de l’échelle 1:250’000.
 Le tuilage des couches n’est pas pré-calculé ; il est calculé à l’affichage. C’est pourquoi on peut rencontrer des lenteurs lors des premières utilisations. Les performances s’amélioreront progressivement à l’usage.
 
 Liste des couches disponibles :
+
 .. image:: donnees_mapcache.png
 
 
