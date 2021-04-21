@@ -336,7 +336,7 @@ Le code d'inclusion html et son appel javascript permettent :
 Web Map Service (WMS)
 ===========
 
-Pour obtenir les flux OGC (WMS, WFS...) des données publiées sur OPenIG, il existe plusieurs façon selon le type de service :
+Pour obtenir les flux OGC (WMS, WFS...) des données publiées sur OPenIG, il existe plusieurs façons selon le type de service :
 
 **1. Flux Mapserver**
 
@@ -360,13 +360,14 @@ Pour une utilisation dans QGIS, il suffit d'ajouter une nouvelle connexion WMS o
  "https://mapserver.openig.org/maps/" + l'identifiant de l'organisation
 
 Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> https://mapserver.openig.org/maps/departement-du-gard
+
 Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> https://mapserver.openig.org/maps/departement-des-pyrenees-orientales
 
 **2. Flux Mapcache**
 
-Réservés aux adhérents, un flux permet d'accéder aux orthophotographies et certains fonds IGN. Cela nécessite d’avoir un compte sur openig.org pour les consommer.
+Réservés aux adhérents, ce flux permet d'accéder aux orthophotographies et certains fonds IGN. Cela nécessite d’avoir un compte sur openig.org pour les consommer.
 
-Depuis votre SIG il faut renseigner l’adresse suivante  https://mapserver.openig.org/mapcache/ ainsi que vos identifiants et mot de passe utilisés pour vous connecter à www.openig.org.
+Depuis votre SIG il faut renseigner l’adresse suivante  https://mapserver.openig.org/mapcache/ ainsi que vos identifiants et mot de passe utilisés pour vous connecter à https://www.openig.org/.
 
 Les couches sont visibles à partir de l’échelle 1:250’000.
 
