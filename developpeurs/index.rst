@@ -250,7 +250,7 @@ Marque blanche / Widget
 
 Le site d'OPenIG permet d'intégrer un **catalogue de données en marque blanche sur un site web externe**. Cette fonctionnalité est également intitulée 'widget'. Elle offre une solution technique pour valoriser le catalogue de données d'une organisation et plus largement de tout sous ensemble du catalogue de données OPenIG filtré par une ou plusieurs facettes (organisations, thématiques, formats, licences, recherche par mot clé...).
 
-**La marque blanche est accessible sans restriction et sans autorisation préalable à tout utilisateur, contributeur ou développeur de DataSud.**
+**La marque blanche est accessible sans restriction et sans autorisation préalable à tout utilisateur, contributeur ou développeur d'OPenIG.**
 
 Techniquement, la marque blanche d'OPenIG passe par l'intégration de quelques lignes de code HTML à l'endroit souhaité sur une page web  externe ainsi que deux appels à un fichier Javascrit (.JS) et une feuille de style CSS (.CSS).
 
@@ -289,7 +289,7 @@ La marque blanche OPenIG a été développée par Neogeo Technologies. Elle est 
       <script type="text/javascript">
         var config = {
            // URL du catalogue CKAN cible
-           ckan_api: 'https://trouver.datasud.fr',
+           ckan_api: 'https://ckan.openig.org',
           // Filtres complémentaires optionnels :
 
           //ckan_organizations: ['org1', 'org2'],
@@ -333,18 +333,57 @@ Le code d'inclusion html et son appel javascript permettent :
 
 
 
-Service WMS
+Web Map Service (WMS)
+===========
+
+Pour obtenir les flux OGC (WMS, WFS...) des données publiées sur OPenIG, il existe plusieurs façon selon le type de service :
+
+**1. Flux Mapserver**
+
+Lorsqu'on se situe sur la fiche d'un jeu de données, il suffit de cliquer soit directement sur la ressource soit sur l'oeil.
+
+.. image:: acces_flux.png
+
+Il faut ensuite sélectionner "API Géo".
+
+.. image:: API_geo.png
+
+.. note:: Si le bouton "API Géo" ou l'aperçu cartographique n'apparaît pas, cela peut provenir du fait que la ressource géographique déposée n'a pas été reconnue comme telle. Cela est souvent dû au format choisi lors de la publication de la ressource. Attention, pour un Shapefile zippé il faut choisir le format "ESRI Shapefile (Fichier ZIP)"" et non pas "ZIP".
+
+.. image:: Shapefile_zip.PNG
+
+Une fois que vous avez cliqué, un menu contextuel apparait pour vous donner toutes les informations que vous souhaitez.
+
+.. image:: API_geo2.png
+
+Pour une utilisation dans QGIS, il suffit d'ajouter une nouvelle connexion WMS ou WFS en collant l'URL suivante :
+ "https://mapserver.openig.org/maps/" + l'identifiant de l'organisation
+
+Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> https://mapserver.openig.org/maps/departement-du-gard
+Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> https://mapserver.openig.org/maps/departement-des-pyrenees-orientales
+
+**2. Flux Mapcache**
+
+Réservés aux adhérents, un flux permet d'accéder aux orthophotographies et certains fonds IGN. Cela nécessite d’avoir un compte sur openig.org pour les consommer.
+
+Depuis votre SIG il faut renseigner l’adresse suivante  https://mapserver.openig.org/mapcache/ ainsi que vos identifiants et mot de passe utilisés pour vous connecter à www.openig.org.
+
+Les couches sont visibles à partir de l’échelle 1:250’000.
+
+Le tuilage des couches n’est pas pré-calculé ; il est calculé à l’affichage. C’est pourquoi on peut rencontrer des lenteurs lors des premières utilisations. Les performances s’amélioreront progressivement à l’usage.
+
+Liste des couches disponibles :
+
+.. image:: donnees_mapcache.png
+
+
+
+Web Feature Service (WFS)
 ===========
 
 En cours.
 
-
-Service WFS
-===========
-
-En cours.
-
-Service CSW
+Catalogue Service for the web (CSW)
 ===========
 
 En cours.

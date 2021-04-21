@@ -358,7 +358,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 - **URL :** https://ckan.openig.org/dataset
 - **IMPLEMENTATION : CKAN**
 - Il est TRES important de ne pas oublier d'ajouter un filtre, au risque de moissonner tout OPenIG.
-- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant de votre organisation dans OPenIG.** ( il s'agit de l'url de votre organisation sur DataSud)
+- **FILTRES -> INCLURE -> Organisation : ajouter l'identifiant de votre organisation dans OPenIG.** ( il s'agit de l'url de votre organisation sur OPenIG)
 Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> Identifiant du département du Gard
 
 Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant du département des Pyrénées Orientales
