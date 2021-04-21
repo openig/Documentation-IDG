@@ -359,7 +359,7 @@ Une fois que vous avez cliqué, un menu contextuel apparait pour vous donner tou
 Pour une utilisation dans QGIS, il suffit d'ajouter une nouvelle connexion WMS ou WFS en collant l'URL suivante :
  "https://mapserver.openig.org/maps/" + l'identifiant de l'organisation
 
- L'identifiant d'une organisation peut être facilement récupérer :
+L'identifiant d'une organisation peut être facilement récupérer :
 * Se rendre sur la page : https://ckan.openig.org/organization
 * Sélectionner l'organisation
 * Récupérer l'identifiant à la suite de l'URL : https://ckan.openig.org/organization/region-occitanie-pyrenees-mediterranee --> "region-occitanie-pyrenees-mediterranee"
