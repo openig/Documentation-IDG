@@ -72,11 +72,11 @@ Conformément à la mise en oeuvre de la loi Numérique, la Commission d’accè
 
 De cette manière, il est possible de solliciter une administration, pour avoir accès à de nombreux documents administratifs, sans avoir à motiver votre demande, meme si ces données ne sont pas encore publiés sur les sites web des administrations ou sur les portails OpenData.
 
-Afin de vous permettre de nous saisir à ce sujet, DataSud propose un service de "demande de données".
+.. Afin de vous permettre de nous saisir à ce sujet, DataSud propose un service de "demande de données".
 
-  **Vous pouvez déposer une demande d'accès à un document administratif ou à un jeu de données relatif au territoire régional à l'adresse suivante : https://www.datasud.fr/demande-de-donnees/**
+.. **Vous pouvez déposer une demande d'accès à un document administratif ou à un jeu de données relatif au territoire régional à l'adresse suivante : https://www.datasud.fr/demande-de-donnees/**
 
-Toute demande sera étudiée et une réponse vous sera apportée. Nous relayerons le cas échéant votre demande à la collectivité ou à l'organisme concerné.
+.. Toute demande sera étudiée et une réponse vous sera apportée. Nous relayerons le cas échéant votre demande à la collectivité ou à l'organisme concerné.
 
 •	Si l'administration accepte votre demande de communication, elle doit normalement le faire dans un délai d'un mois.
 •	L’administration peut rejeter, par décision motivée, votre demande de communication.
