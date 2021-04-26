@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# DataSud documentation build configuration file, created by
+# OPenIG documentation build configuration file, created by
 # sphinx-quickstart on Mon Oct 30 07:38:35 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -162,7 +162,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DataSud.tex', u'DataSud Documentation',
+    (master_doc, 'OPenIG.tex', u'OPenIG Documentation',
      u'IDGO', 'manual'),
 ]
 
@@ -172,7 +172,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'datasud', u'DataSud Documentation',
+    (master_doc, 'OPenIG', u'OPenIG Documentation',
      [author], 1)
 ]
 
@@ -183,7 +183,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DataSud', u'DataSud Documentation',
-     author, 'DataSud', 'One line description of project.',
+    (master_doc, 'OPenIG', u'OPenIG Documentation',
+     author, 'OPenIG', 'One line description of project.',
      'Miscellaneous'),
 ]
