@@ -409,25 +409,20 @@ Via cette page, vous avez accès au MViewer Studio :
 
 Spécification des paramètres globaux de l'application (emprise géographique, titre, couleur, etc.). Pour pouvoir utiliser une page d'aide ainsi qu'un logo spécifique, ceux-ci doivent être déposés sur un serveur. Il suffira ici de renseigner l'adresse URL de ces fichiers.
 
-``
-<ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>
 
-    <li role="presentation" ><a href="#h_credits" aria-controls="settings" role="tab" data-toggle="tab" i18n="help.modal.credits">Crédits</a></li>
-</ul>
+``<ul class="nav nav-tabs" role="tablist">``
+    ``<li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>``
+    ``<li role="presentation" ><a href="#h_credits" aria-controls="settings" role="tab" data-toggle="tab" i18n="help.modal.credits">Crédits</a></li>``
+``</ul>``
 
-<!-- Tab panes -->
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="h_app">
-        <h4 i18n="help.modal.about">A propos de l'application</h4>
-        <p>Application qui présente ....</p>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="h_credits">
-        <h4 i18n="help.modal.credits">Crédits </h4>
-        Application réalisée par ....
-    </div>
-</div>
-``
+``<!-- Tab panes -->``
+``<div class="tab-content">``
+
+    ``<div role="tabpanel" class="tab-pane active" id="h_app"><h4 i18n="help.modal.about">A propos de l'application</h4>Application qui présente ...</div>``
+
+    ``<div role="tabpanel" class="tab-pane" id="h_credits"><h4 i18n="help.modal.credits">Crédits </h4>`Application réalisée par ... </div>``
+
+``</div>``
 
 **Onglet Thématiques & données :**
 
