@@ -400,14 +400,17 @@ Il faut vous rendre sur le site internet d'OPenIG, vous authentifier et accéder
 Sinon directement via cette URL : https://www.openig.org/creer-sa-carte
 
 Via cette page, vous avez accès au MViewer Studio :
+
 .. image:: mviewer_studio.PNG
 
-.. note:: L'outil MViewer a été développé avec le serveur cartographique GeoServer. OPenIG utilisant MapServer, certaines fonctionnalités ne sont pas disponibles. La plupart des paramétrages pourra se faire mais via des fichiers externes stockés sur serveur et non pas directement avec l'interface Studio.
+.. Attention:: L'outil MViewer a été développé avec le serveur cartographique GeoServer. OPenIG utilisant MapServer, certaines fonctionnalités ne sont pas disponibles. La plupart des paramétrages pourra se faire mais via des fichiers externes stockés sur serveur et non pas directement avec l'interface Studio.
 
-**_Onglet Application :_**
+***Onglet Application :***
+
 Spécification des paramètres globaux de l'application (emprise géographique, titre, couleur, etc.). Pour pouvoir utiliser une page d'aide ainsi qu'un logo spécifique, ceux-ci doivent être déposés sur un serveur. Il suffira ici de renseigner l'adresse URL de ces fichiers.
 
-```HTML
+```
+
 <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>
 
@@ -425,32 +428,45 @@ Spécification des paramètres globaux de l'application (emprise géographique, 
         Application réalisée par ....
     </div>
 </div>
+
 ```
 
-**_Onglet Thématiques & données :_**
+***Onglet Thématiques & données :***
 
-_Ajout d'une thématique :_
+*Ajout d'une thématique :*
+
 .. image:: mviewer_thematiques.PNG
-_Ajout d'une donnée :_
+
+*Ajout d'une donnée :*
+
 .. image:: mviewer_donnees.PNG
-_Paramétrage de la donnée :_
+
+*Paramétrage de la donnée :*
+
 .. image:: mviewer_donnees_modif.PNG
-.. note:: Il ne faut pas oublier de cocher la dernière case ("utiliser le proxy") afin que la couche puisse s'afficher dans le visualiseur.
+
+.. Attention:: Il ne faut pas oublier de cocher la dernière case ("utiliser le proxy") afin que la couche puisse s'afficher dans le visualiseur.
 
 La rubrique "fiche" va vous permettre de modifier la fiche d'information relative à la ressource lorsque vous allez sélectionner une entité.
 Du fait de MapServer, la seule possibilité de paramétrer cette fiche sera d'appeler un fichier .MST stocké sur votre serveur. Si vous souhaitez en savoir plus : https://mviewerdoc.readthedocs.io/fr/latest/doc_tech/config_tpl.html
+
 .. image:: mviewer_donnees_modif2.PNG
 
 L'affichage peut se personnaliser mais encore une fois avec des fichiers externes : URL d'un fichier sld ou URL d'une image pour la légende.
+
 .. image:: mviewer_donnees_modif3.PNG
 
 Les autres rubriques (filtre, choix, recherche) ne sont pas paramétrables dans notre cas.
 
 Enfin, vous allez pouvoir sauvegarder votre application sur le serveur, télécharger le fichier de paramétrage .XML de votre application et prévisualiser l'application définie.
 "Charger" vous permettra d'utiliser un fichier .XML stocké en local ou de charger une application sauvegardée sur le serveur.
+
 .. image:: mviewer_admin.PNG
 
 Liens utiles :
-- Github de MViewer : https://github.com/geobretagne/mviewer
-- Applications développées par la Région Bretagne : https://mviewer.netlify.app/fr/
-- La documentation MViewer : https://mviewerdoc.readthedocs.io/fr/latest/index.html
+
+* Github de MViewer : https://github.com/geobretagne/mviewer
+
+* Applications développées par la Région Bretagne : https://mviewer.netlify.app/fr/
+
+* La documentation MViewer : https://mviewerdoc.readthedocs.io/fr/latest/index.html
