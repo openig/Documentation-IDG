@@ -405,12 +405,11 @@ Via cette page, vous avez accès au MViewer Studio :
 
 .. Attention:: L'outil MViewer a été développé avec le serveur cartographique GeoServer. OPenIG utilisant MapServer, certaines fonctionnalités ne sont pas disponibles. La plupart des paramétrages pourra se faire mais via des fichiers externes stockés sur serveur et non pas directement avec l'interface Studio.
 
-***Onglet Application :***
+**Onglet Application :**
 
 Spécification des paramètres globaux de l'application (emprise géographique, titre, couleur, etc.). Pour pouvoir utiliser une page d'aide ainsi qu'un logo spécifique, ceux-ci doivent être déposés sur un serveur. Il suffira ici de renseigner l'adresse URL de ces fichiers.
 
-```
-
+``
 <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>
 
@@ -428,10 +427,9 @@ Spécification des paramètres globaux de l'application (emprise géographique, 
         Application réalisée par ....
     </div>
 </div>
+``
 
-```
-
-***Onglet Thématiques & données :***
+**Onglet Thématiques & données :**
 
 *Ajout d'une thématique :*
 
@@ -452,7 +450,7 @@ Du fait de MapServer, la seule possibilité de paramétrer cette fiche sera d'ap
 
 .. image:: mviewer_donnees_modif2.PNG
 
-L'affichage peut se personnaliser mais encore une fois avec des fichiers externes : URL d'un fichier sld ou URL d'une image pour la légende.
+L'affichage peut se personnaliser mais encore une fois avec des fichiers externes : URL d'un fichier .SLD ou URL d'une image pour la légende.
 
 .. image:: mviewer_donnees_modif3.PNG
 
