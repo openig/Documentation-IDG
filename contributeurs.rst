@@ -277,7 +277,7 @@ Attention, cette action est irreversible et supprimera définitivement le jeu de
 Datastore et données intelligentes
 --------------------------------------------------
 
-OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLS, GeoJSON, SHP**.
+OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLSX, XLS & JSON**.
 
 La publication des données sur OPenIG, dans un format ouvert et interprétable par une machine, permet leur indexation dans le datastore afin notamment de proposer des aperçus, de les filtrer par champs et de les parcourir sans utiliser de tableur dédiés.
 
@@ -297,6 +297,7 @@ Les données indexées dans le datastore sont ensuite "requetables" directement 
 * Ne pas doublonner le titre d'une colonne.
 * En théorie les caractères spéciaux ('\:.,( -') sont acceptés, mais c'est beaucoup mieux de les éviter dans les titres.
 * Harmoniser le type de vos données (et oui vos données sont typées!) : en effet si une colonne ne comporte que des chiffres, le datastore autodéterminera le type de cette colonne comme étant un nombre. Or il suffit qu'une cellule de la colonne contienne l'entrée N/A, pour que le datastore génére une erreur.
+* La taille limite des données pouvant être exploitées via l'API est de **15MO**.
 Pour éviter les erreurs de type, il est préférable de les corriger avant d'indexer le jeu de donnée dans OPenIG ou bien de transformer la valeur des cellules en cellules au format TEXTE. Cela n'est pas satisfaisant, mais ça fonctionne.
 
 * ERREUR : En cas d'erreur supprimez complètement la ressource associée au jeu de données et ajoutez en une nouvelle.
