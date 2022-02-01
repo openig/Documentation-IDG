@@ -61,46 +61,39 @@ Le site d'OPenIG permet également de requêter directement le contenu des jeux 
 
 Comme expliqué plus haut, le Datastore propose un service d'indexation des données tabulaires (CSV et XLS). L'API CKAN DATA permet d'exposer le contenu des ressources indexées dans le Datastore dont on peut ainsi interroger tout ou partie sans avoir à télécharger le jeu de données. Il est alors possible de faire des opérations de recherche sur les différents champs de données.
 
-* Afficher les cinq enregistrements du jeu de données des points de rencontre de covoiturage dans les Pyrénées Orientales :
+* Afficher les cinq enregistrements du jeu de données des points de rencontre de covoiturage dans les Pyrénées Orientales::
+
+    https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5
 
 Cette requête utilise  la méthode datastore_search de l'API de CKAN avec la notion de filtres.
-
-``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5``
-
-.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&limit=5
 
 * Trouvez les arrêts de covoiturage dont le champ com_lieu est égal à PERPIGNAN::
 
+    https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}
+
 Cette requête utilise  la méthode datastore_search de l'API de CKAN avec la notion de filtres.
 
-``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}``
+* Trouver tous les arrêts de covoiturage dans les Pyrénées Orientales qui disposent d'arrêts de bus et de lumière::
 
-.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={"com_lieu":"PERPIGNAN"}
-
-* Trouver tous les arrêts de covoiturage dans les Pyrénées Orientales qui disposent d'arrêts de bus et de lumière  ::
+    https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}
 
 Cette requête utilise la méthode datastore_search de l'API de CKAN avec la notion de filtres.
 
-``https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}``
+* Trouver les points de rencontre avec un nombre de places supérieur à 20 et un nombre de place PMR supérieur à 1 (requête SQL)::
 
-.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search?resource_id=1532854d-7f20-4408-b3d0-f2ae0a520477&filters={%22lumiere%22:%22true%22,%22comm%22:%22Pr%C3%A9sence%20d%27arceaux%20V%C3%A9lo%20et%20arr%C3%AAt%20de%20bus%22}
-
-* Trouver les points de rencontre avec un nombre de places supérieur à 20 et un nombre de place PMR supérieur à 1 (requête SQL) ::
+    https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'
 
 Cette requête utilise la méthode datastore_search_sql de l'API de CKAN avec la notion de requête SQL .
-
-``https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'``
-
-.. Requête et résultats : https://ckan.openig.org/api/3/action/datastore_search_sql?sql=SELECT from "1532854d-7f20-4408-b3d0-f2ae0a520477"  WHERE "nbre_pl" > '20' AND "nbre_pmr" > '1'
 
 
 Documentation de l'API (catalogue et ressources) et de l'API Datastore (requête sur les ressources) en anglais :
 
-http://docs.ckan.org/en/latest/api/
-http://docs.ckan.org/en/ckan-2.7.2/maintaining/datastore.html#the-datastore-api
+* http://docs.ckan.org/en/latest/api/
+
+* http://docs.ckan.org/en/ckan-2.7.2/maintaining/datastore.html#the-datastore-api
 
 
-.. note:: le mot "package" qu'on trouve dans certaines requête et dans la documentation CKAN correspond à un jeu de donnée.
+.. note:: Le mot "package" qu'on trouve dans certaines requête et dans la documentation CKAN correspond à un jeu de donnée.
 
 
 Construire une requête pour l'API
@@ -115,16 +108,26 @@ Une façon de publier un dictionnaire JSON sur une URL est d'utiliser le client 
 La réponse de CKAN ressemblera à ceci::
 
     {
-        "help": "...",
-        "result": [
-            "data-explorer",
-            "department-of-ricky",
-            "geo-examples",
-            "geothermal-data",
-            "reykjavik",
-            "skeenawild-conservation-trust"
-        ],
-        "success": true
+      "help": "https://ckan.openig.org/api/3/action/help_show?name=group_list",
+      "result": [
+          "administration-et-action-publique",
+          "agriculture-sylviculture-et-peche",
+          "biodiversite-et-environnement",
+          "citoyennete-et-democratie",
+          "climat-air-et-energie",
+          "culture-patrimoine-et-tourisme",
+          "economie-et-entreprises",
+          "energies-et-reseaux",
+          "equipements-batiments-et-logements",
+          "formation-education-et-emploi",
+          "mobilite-et-transports",
+          "occupation-des-sols",
+          "referentiels",
+          "social-sante-et-sports",
+          "urbanisme",
+          "vues-aeriennes-et-imagerie"
+      ],
+      "success": true
     }
 
 La réponse est un dictionnaire JSON avec 3 clés :
@@ -162,7 +165,7 @@ La réponse est un dictionnaire JSON avec 3 clés :
 3. ``"help"``: le texte de documentation de la fonction appelée.
 
 La même requête HTTP peut être effectuée en utilisant le module Python standard ``urllib2``
-avec ce code Python :
+avec ce code Python::
 
     #!/usr/bin/env python
     import urllib2
@@ -226,7 +229,8 @@ Par exemple, pour demander si vous suivez actuellement l'utilisateur
 
 (Remplacer `` XXX`` avec votre clé API.)
 
-Par exemple, pour obtenir la liste des activités de votre tableau de bord utilisateur, on lance ce code Python ::
+Par exemple, pour obtenir la liste des activités de votre tableau de bord utilisateur, on lance ce code Python::
+
     request = urllib2.Request('https://ckan.openig.org/api/3/action/dashboard_activity_list')
     request.add_header('Authorization', 'XXX')
     response_dict = json.loads(urllib2.urlopen(request, '{}').read())
@@ -238,9 +242,9 @@ Support JSONP
 
 Pour répondre aux scripts d'autres sites qui souhaitent accéder à l'API, les données peuvent
 être renvoyé au format JSONP, où les données JSON sont 'complétées' avec une fonction
-call. La fonction est nommée dans le paramètre 'callback'. Par exemple:
+call. La fonction est nommée dans le paramètre 'callback'. Par exemple::
 
-https://ckan.openig.org/api/3/action/package_show?id=adur_district_spending&callback=myfunction
+    https://ckan.openig.org/api/3/action/package_show?id=adur_district_spending&callback=myfunction
 
 .. note :: Cela ne fonctionne qu'avec les requêtes GET
 
@@ -409,17 +413,17 @@ Via cette page, vous avez accès au MViewer Studio :
 
 Spécification des paramètres globaux de l'application (emprise géographique, titre, couleur, etc.). Pour pouvoir utiliser une page d'aide ainsi qu'un logo spécifique, ceux-ci doivent être déposés sur un serveur. Il suffira ici de renseigner l'adresse URL de ces fichiers.
 
-Exemple de page d'aide .HTML de base :
+Exemple de page d'aide .HTML de base::
 
-``<ul class="nav nav-tabs" role="tablist">``
-    ``<li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>``
-    ``<li role="presentation" ><a href="#h_credits" aria-controls="settings" role="tab" data-toggle="tab" i18n="help.modal.credits">Crédits</a></li>``
-``</ul>``
-``<!-- Tab panes -->``
-``<div class="tab-content">``
-    ``<div role="tabpanel" class="tab-pane active" id="h_app"><h4 i18n="help.modal.about">A propos de l'application</h4>Application qui présente ...</div>``
-    ``<div role="tabpanel" class="tab-pane" id="h_credits"><h4 i18n="help.modal.credits">Crédits </h4>`Application réalisée par ... </div>``
-``</div>``
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#h_app" aria-controls="profile" role="tab" data-toggle="tab">Application</a></li>
+        <li role="presentation" ><a href="#h_credits" aria-controls="settings" role="tab" data-toggle="tab" i18n="help.modal.credits">Crédits</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="h_app"><h4 i18n="help.modal.about">A propos de l'application</h4>Application qui présente ...</div>
+        <div role="tabpanel" class="tab-pane" id="h_credits"><h4 i18n="help.modal.credits">Crédits </h4>`Application réalisée par ... </div>
+    </div>
 
 **Onglet Thématiques & données :**
 
