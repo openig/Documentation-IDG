@@ -273,11 +273,27 @@ Il est recomandé de Copier le titre de l’ensemble de donnée (Ctrl C) afin de
 
 Attention, cette action est irreversible et supprimera définitivement le jeu de données ainsi que toutes les ressources qui lui sont attachées.
 
---------------------------------------------------
+-------------------------------------------------------
+Valoriser un ensemble de données en indexant leur réutilisation
+-------------------------------------------------------
+
+La fonctionnalité "réutilisation" (Trouver des données -> Réutilisation) permet d'indexer les applications/projets existants et réutilisants des données issues du catalogue d'OPenIG. Vous pouvez visualiser celles existantes sur cette page.
+
+.. image:: reutilisation1.PNG
+
+Lorsqu'une donnée est réutilisée, nous vous invitions à créer une "réutilisation" afin de valoriser vos projets et/ou vos données . Pour en créer une, il vous suffit de cliquer sur "Ajouter une réutilisation" et de remplir le formulaire.
+
+.. image:: reutilisation2.PNG
+
+La réutilisation sera aussi visible sur la page du jeu de données :
+
+.. image:: reutilisation3.PNG
+
+--------------------------------------
 Datastore et données intelligentes
 --------------------------------------------------
 
-OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLSX, XLS & JSON**.
+OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLSX, XLS, GeoJSON & JSON**.
 
 La publication des données sur OPenIG, dans un format ouvert et interprétable par une machine, permet leur indexation dans le datastore afin notamment de proposer des aperçus, de les filtrer par champs et de les parcourir sans utiliser de tableur dédiés.
 
@@ -287,6 +303,10 @@ Des données intelligentes permettent également d'en automatiser l'accès par A
 L'accessibilité des données par interface de programmation est une condition nécessaire pour massifier et industrialiser les usages qui peuvent être fait de ces dernières.
 Les données indexées dans le datastore sont ensuite "requetables" directement à travers l'API à travers une série de fonctionnalités puissantes.
 ( voir la présentation de l'API CKan : https://openig.readthedocs.io/fr/latest/developpeurs/index.html#service-api-ckan)
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Préparation des données tabulaires pour indexation dans Datastore
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Vos jeux de données doivent être préparés pour être proprement indexés dans le datastore :**
 
@@ -308,22 +328,19 @@ Pour éviter les erreurs de type, il est préférable de les corriger avant d'in
 
   * si vous ne voulez pas indexer vos données dans le datastore (pour plein de bonnes et mauvaises raisons), il suffit d'ajouter une feuille de calcul vide en dernière place de votre tableur. ::
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Géolocalisation et visualisation des données indexées
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. -----------------------------------------------------
-.. Géolocalisation des données tabulaires (XLS et CSV)
-.. -----------------------------------------------------
+Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées. Pour cela, il faut renseigner les coordonnées géographiques soit avec un champ GeoJSON soit avec deux colonnes distinctes : "latitude" et "longitude". Attention, la projection utilisée est le WGS84 (EPSG : 4326).
 
-.. Une carte peut automatiquement être générée à partir de vos données tabulaires geolocalisées.
-.. Pour cela vous devez intituler deux colonnes du tableau "latitude" et "longitude".
+L’option « Marqueurs de regroupement » vous permet de « fusionner » visuellement les données proches.
 
-.. Projections : en cours de rédaction.
+.. image:: map_tabdata.PNG
 
-.. -------------------------------------------------------
-.. Renseigner les métadonnées INSPIRE
-.. -------------------------------------------------------
+Un graphique peut également être généré en sélectionnant les colonnes à assigner aux axes ainsi que le type de graphique parmis la liste disponible. Il est possible de combiner plusieurs "séries" au sein d'un même graphique.
 
-.. Cette partie de la documentation est en cours de rédaction par le CRIGE.
-
+.. image:: graph_tabdata.PNG
 
 -------------------------------------------------------
 Faire remonter vos données sur Data.Gouv.fr
