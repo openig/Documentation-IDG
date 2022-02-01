@@ -30,14 +30,11 @@ De nombreuses fonctionnalités participatives sont proposées :
 
 - Contacter les administrateurs d'OPenIG : https://www.openig.org/webform-contact-anonyme
 - Contacter directement le producteur ou le diffuseur d'un jeu de données
-- Suivre/s’abonner à un jeu de données, une thématique ou une organisation,
-- Noter la qualité d'un jeu de donnée,
+- Suivre/s’abonner à un jeu de données, une thématique ou une organisation
 .. image:: VuesOPenIG.png
 
 - Demander l'accès aux administrateurs à des données réservées sur accès restreint,
 - Accéder aux données et services autorisés pour une organisation.
-- Commenter une organisation ou un jeu de données
-.. image:: Commentaires.PNG
 - Partager un jeu de données ou une ressource sur un autre site ou via des réseaux sociaux
 - Déclarer une réutilisation : https://ckan.openig.org/showcase/new
 
