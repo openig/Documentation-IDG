@@ -289,9 +289,9 @@ La réutilisation sera aussi visible sur la page du jeu de données :
 
 .. image:: reutilisation3.PNG
 
---------------------------------------
+-------------------------------------------------------
 Datastore et données intelligentes
---------------------------------------------------
+-------------------------------------------------------
 
 OPenIG propose un **datastore**, c'est à dire un entrepôt de données qui offre des **services dits "intelligents" sur les données tabulaires aux formats CSV, XLSX, XLS, GeoJSON & JSON**.
 
