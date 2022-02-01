@@ -269,9 +269,7 @@ La marque blanche OPenIG a été développée par Neogeo Technologies. Elle est 
 * Les fichiers à inclure et un exemple de code HTML sont disponibles ici :
   https://github.com/neogeo-technologies/ckan-widget/tree/master/build
 
-* A quoi ressemble la marque blanche ?
 
-.. image:: CaptureMarqueBlanche.PNG
 
 
 * Exemple de code d'implémentation: ::
