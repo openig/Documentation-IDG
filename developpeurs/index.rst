@@ -383,7 +383,7 @@ Le tuilage des couches n’est pas pré-calculé ; il est calculé à l’affich
 
 Liste des couches disponibles :
 
-.. image:: donnees_mapcache.png
+.. image:: flux_mapcache.png
 
 En plus de cette documentation, des **tutoriels vidéos** existent sur le site internet d'OPenIG (service accessible uniquement aux adhérents) : https://www.openig.org/flux
 
