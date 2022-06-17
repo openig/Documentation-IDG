@@ -7,7 +7,7 @@ Espace développeurs
 Service API Ckan
 ================
 
-Le site **https://ckan.openig.org** est construit à partir du système d'information OpenSource dédié à la gestion de catalogues de données `CKAN <http://www.ckan.org/>`_.
+Le `« site d'OPenIG » <https://idgo.openig.org//>`_ est construit à partir du système d'information OpenSource dédié à la gestion de catalogues de données `CKAN <http://www.ckan.org/>`_.
 
 Requêter l'API CKAN Catalogue
 ========
@@ -256,19 +256,23 @@ Le site d'OPenIG permet d'intégrer un **catalogue de données en marque blanche
 
 **La marque blanche est accessible sans restriction et sans autorisation préalable à tout utilisateur, contributeur ou développeur d'OPenIG.**
 
-Techniquement, la marque blanche d'OPenIG passe par l'intégration de quelques lignes de code HTML à l'endroit souhaité sur une page web  externe ainsi que deux appels à un fichier Javascrit (.JS) et une feuille de style CSS (.CSS).
+Pour pouvoir tester et installer le widget en local, voici la procédure :
 
-La marque blanche OPenIG a été développée par Neogeo Technologies. Elle est distribuée sur Github sous licence MIT. Le code source peut être utilisé pour afficher tout catalogue CKAN sur un site tiers.
+* Télécharger le zip du code sur Github https://github.com/neogeo-technologies/ckan-widget
 
-* Code source :
-  https://github.com/neogeo-technologies/ckan-widget
+* Télécharger Node.js et l’installer si ce n’est pas déjà le cas https://nodejs.org/fr/download/
 
-* Licence :
-  https://github.com/neogeo-technologies/ckan-widget/blob/master/LICENSE
+* Redémarrer l’ordi pour prendre en compte l’installation
 
-* Les fichiers à inclure et un exemple de code HTML sont disponibles ici :
-  https://github.com/neogeo-technologies/ckan-widget/tree/master/build
+* Effectuer les commandes: ::
 
+    cd /CHEMIN_VERS_LE_FICHIER_DEZIPPE/ckan-widget (pour se positionner dans le dossier)
+    npm install && npm start (pour installer)
+
+* Tester l’URL local pour voir si ça fonctionne : http://localhost:3000/
+
+
+Ensuite, une fois le widget installé, cela passe par l'intégration de quelques lignes de code HTML à l'endroit souhaité sur une page web externe ainsi que deux appels à un fichier Javascrit (.JS) et une feuille de style CSS (.CSS).
 
 
 
@@ -332,6 +336,23 @@ Le code d'inclusion html et son appel javascript permettent :
 
 .. - Sur le site internet du la ville de Digne les Bains :
 .. https://www.dignelesbains.fr/coordonnees-et-horaires-de-la-mairie/open-data/
+
+
+**Si l'adhérent souhaitant disposé d'un catalogue en marque blanche ne dispose pas d'une solution (serveur) pour héberger le widget, il peut contacter l'adresse webmestre@openig.org. Une aide lui sera apportée. **
+
+La marque blanche OPenIG a été développée par Neogeo Technologies. Elle est distribuée sur Github sous licence MIT. Le code source peut être utilisé pour afficher tout catalogue CKAN sur un site tiers.
+
+* Code source :
+  https://github.com/neogeo-technologies/ckan-widget
+
+* Licence :
+  https://github.com/neogeo-technologies/ckan-widget/blob/master/LICENSE
+
+* Les fichiers à inclure et un exemple de code HTML sont disponibles ici :
+  https://github.com/neogeo-technologies/ckan-widget/tree/master/build
+
+
+
 
 
 

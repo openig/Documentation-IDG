@@ -50,16 +50,17 @@ Vous êtes le seul responsable de la réutilisation de « l’information » con
 Si vous débutez en matière de réutilisation de données publiques, ouvertes, personnelles, sensibles, géographiques…
 Alors nous vous invitons à commencer par découvrir la documentation produite par OpenDataFrance :
 
-[Ressources Opendatalocale](http://opendatalocale.net/ressources)
+`« Ressources Opendatalocale » <https://opendatafrance.gitbook.io/odl-ressources>`_
+`« Module de eLearning proposé par le portail européen de l’OpenData » <https://www.europeandataportal.eu/elearning/fr/module1/#/id/co-01>`_
+`« L'Open Data, c'est quoi ? » <https://player.vimeo.com/video/153271129>`_
 
-[module de eLearning proposé par le portail européen de l’OpenData](https://www.europeandataportal.eu/elearning/fr/module1/#/id/co-01 https://player.vimeo.com/video/153271129)
 
 
 ----------------------------------------------------------------------
 Faire une demande d'accès à un document administratif ou à des données
 ----------------------------------------------------------------------
 
-Présentation du cadre juridique de l’ouverture des données: un [guide pratique de la publication en ligne et de la réutilisation des données publiques](https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf) a été élaboré par les services de la CADA et de la CNIL  en association avec les services d’Etalab.
+Présentation du cadre juridique de l’ouverture des données: un `« guide pratique de la publication en ligne et de la réutilisation des données publiques » <https://www.cnil.fr/sites/default/files/atoms/files/guide_open_data.pdf>`_ a été élaboré par les services de la CADA et de la CNIL  en association avec les services d’Etalab.
 
 L'article 15 de la Déclaration Universelle des droits de l'homme et du citoyen précise que "la société a le droit de demander compte à tout agent public de son administration".
 

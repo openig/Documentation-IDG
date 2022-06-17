@@ -3,7 +3,7 @@ Espace contributeurs
 ====================
 
 
-Ce guide est destiné aux producteurs de données, déjà inscrit en tant qu'Utilisateurs https://idgo.openig.org/ et souhaitant contribuer à l'enrichissement des publications sur la plateforme.
+Ce guide est destiné aux producteurs de données, déjà inscrit en tant qu'Utilisateurs et souhaitant contribuer à l'enrichissement des publications sur la plateforme.
 `« Voir la documentation sur les Utilisateurs » <https://openig.readthedocs.io/fr/latest/utilisateurs.html>`_
 
 .. note:: Toute personne, morale ou physique, publique ou privée, producteur de données publiques ou privées peut les publier sur OPenIG, sous reserve d'accepter les « conditions d’utilisation » et de respecter la réglementation sur les données à caractères personnelles.

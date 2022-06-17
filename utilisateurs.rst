@@ -2,7 +2,7 @@
 Espace utilisateurs
 ===================
 
-S'il n'est pas nécessaire de s'inscrire sur la plateforme pour consulter le catalogue et télécharger des données ouvertes, le fait de s'enregistrer sur OPenIG https://idgo.openig.org/ permet de disposer des fonctionnalités complémentaires par rapport à la consultation sans inscription.
+S'il n'est pas nécessaire de s'inscrire sur la plateforme pour consulter le catalogue et télécharger des données ouvertes, le fait de s'enregistrer sur `« OPenIG » <https://idgo.openig.org//>`_   permet de disposer des fonctionnalités complémentaires par rapport à la consultation sans inscription.
 
 .. note:: Toute personne, morale ou physique, publique ou privée, peut s'inscrire sur OPenIG et ainsi contribuer à l'ouverture et la mise en commun des données publiques ou privées, en publiant des jeux de données, des textes, des ressources et des commentaires.
 
