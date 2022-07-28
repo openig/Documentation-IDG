@@ -31,9 +31,9 @@ Il faut distinguer les rôles définis pour toute l'application (super admin), d
 
 (M) : dépend si le projet est modéré ou non. S'il est modéré :
 
-* le contributeur ne peut pas publier ses brouillons mais les mettre en "publication en cours"
-* le contributeur ne peut pas archiver ses propres signalements, même si la visibilité lui est accordé
-* le modérateur peut modifier tous les signalements qui ont le statut "en publication en cours", "publiés" (ou "archivés" selon les caractéristiques du projet (P)) vers les statuts "brouillon", "publiés" (et "archivés" selon les caractéristiques du projet (P)).
+   +   le contributeur ne peut pas publier ses brouillons mais les mettre en "publication en cours"
+   +   le contributeur ne peut pas archiver ses propres signalements, même si la visibilité lui est accordé
+   +   le modérateur peut modifier tous les signalements qui ont le statut "en publication en cours", "publiés" (ou "archivés" selon les caractéristiques du projet (P)) vers les statuts "brouillon", "publiés" (et "archivés" selon les caractéristiques du projet (P)).
 
 .. image:: img/geocontrib_roles_users.png
 
@@ -92,14 +92,14 @@ Le formulaire permet de définir un titre pour le type de signalement, une géom
    +   Nombre décimal
    +   Texte multiligne
 
-
+""""""""""""""""""""""""""
 **Paramétrage du style**
+""""""""""""""""""""""""""
 
 Lors de la création du champ personnalisé, il est possible d'affecter une couleur à chacune des valeurs de la liste de valeurs. Pour ce faire, il faut d'abord définir le champ personnalisé.
 
-+   Pour les types de signalements linéaires ou polygones, un menu déroulant apparaît en haut de la page d'édition du type de signalement. Dans ce menu déroulant, sélectionner le champ personnalisé correspondant à la liste de valeurs. Devant chaque valeur de la liste apparaît alors un cadre permettant de modifier la couleur affectée à chaque valeur. Il n'est pas possible de personnaliser les couleurs pour plus d'une liste de valeurs. Le signalement prendra alors la couleur de la valeur à laquelle il est associé.
-
-+   Pour les types de signalements ponctuels, le style (symbole et/ou couleur) peut être défini depuis la page d'accueil du projet, en cliquant sur le bouton "Editer la symbologie du type de signalement". Une nouvelle page permet de définir une couleur et un symbole par défaut, ou de sélectionner dans une liste de choix un des champs de type liste (s'il en existe pour ce type de signalements). Il est alors possible de définir une couleur et un symbole pour chaque valeur de la liste.
+   +   Pour les types de signalements linéaires ou polygones, un menu déroulant apparaît en haut de la page d'édition du type de signalement. Dans ce menu déroulant, sélectionner le champ personnalisé correspondant à la liste de valeurs. Devant chaque valeur de la liste apparaît alors un cadre permettant de modifier la couleur affectée à chaque valeur. Il n'est pas possible de personnaliser les couleurs pour plus d'une liste de valeurs. Le signalement prendra alors la couleur de la valeur à laquelle il est associé.
+   +   Pour les types de signalements ponctuels, le style (symbole et/ou couleur) peut être défini depuis la page d'accueil du projet, en cliquant sur le bouton "Editer la symbologie du type de signalement". Une nouvelle page permet de définir une couleur et un symbole par défaut, ou de sélectionner dans une liste de choix un des champs de type liste (s'il en existe pour ce type de signalements). Il est alors possible de définir une couleur et un symbole pour chaque valeur de la liste.
 
 
 **A partir d'un GeoJSON**
@@ -108,9 +108,8 @@ Depuis la page d'accueil d'un projet, le bouton "Créer un type de signalements 
 
 En bas de page, il peut choisir :
 
--	de créer simplement le type de signalement
-
--	de créer le type de signalement et d'importer les données du fichier
+   +   de créer simplement le type de signalement
+   +   de créer le type de signalement et d'importer les données du fichier
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -157,15 +156,15 @@ Pour ajouter une liaison depuis le formulaire d'édition d'un signalement, il fa
 
 Il est possible de créer trois types de liaisons entre un signalement A et un signalement B :
 
-* "doublon"
-* "dépend de"
-* "remplace"
+   +   *"doublon"*
+   +   *"dépend de"*
+   +   *"remplace"*
 
 Pour chaque liaison, un adjectif inverse est défini :
 
-Si la liaison "doublon de B" est affectée à A, la liaison "doublon de A" est affectée à B.
-Si la liaison "dépend de B" est affectée à A, la liaison "dépend de A" est affectée à B.
-Si la liaison "remplace B" est affectée à A, la liaison "est remplacé par A" est affectée à B.
+   +   Si la liaison "doublon de B" est affectée à A, la liaison "doublon de A" est affectée à B.
+   +   Si la liaison "dépend de B" est affectée à A, la liaison "dépend de A" est affectée à B.
+   +   Si la liaison "remplace B" est affectée à A, la liaison "est remplacé par A" est affectée à B.
 
 Suite à un import de données par upload d'un fichier GeoJSON, si deux signalements d'un même type de signalements présentent le même titre et la même géométrie, ils sont alors automatiquement considérés comme "doublons". La liaison est alors visible dans chacune des pages descriptives de ces signalements.
 
