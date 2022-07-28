@@ -6,11 +6,11 @@ Le catalogue des données, les ressources et les outils disponibles sont amenés
 
 .. toctree::
   :maxdepth: 3
- consultation
- utilisateurs
- contributeurs
- developpeurs
+ idg_openig
  geocontrib
+ mviewer
+ widget_catalogue
+ developpeurs
  cadre_legal
  regles_editoriales
 
