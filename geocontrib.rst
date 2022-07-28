@@ -28,6 +28,7 @@ Il faut distinguer les rôles définis pour toute l'application (super admin), d
 
 
 (P) : dépend des caractéristiques du projets, notamment du paramètre "Visibilité des signalements publiés"
+
 (M) : dépend si le projet est modéré ou non. S'il est modéré :
 
 * le contributeur ne peut pas publier ses brouillons mais les mettre en "publication en cours"
@@ -58,9 +59,9 @@ Création d'un projet
 
 Il faut remplir ici les éléments permettant de décrire votre projet : titre (obligatoire), description, imagette, délai avant archivage, délai avant suppression, visibilité des signalements publiés (obligatoire) et visibilité des signalements archivés (obligatoire).
 
-Case à cocher "Modération" : dans le cas de projets modérés, les contributeurs ne peuvent pas publier directement leurs signalements. Ceux-ci doivent d'abord être évalués par des utilisateurs dits modérateurs du projet (ou par les administrateurs du projet). Si la modération est choisie, le rôle de "Modérateur" est alors disponible (attribuable par l’administrateur du projet).
+Case à cocher *"Modération"* : dans le cas de projets modérés, les contributeurs ne peuvent pas publier directement leurs signalements. Ceux-ci doivent d'abord être évalués par des utilisateurs dits modérateurs du projet (ou par les administrateurs du projet). Si la modération est choisie, le rôle de "Modérateur" est alors disponible (attribuable par l’administrateur du projet).
 
-Case à cocher "Est un projet type" : lors de la création d’un nouveau projet, il est possible d’utiliser un modèle. C’est cette case qui permet de définir si ce projet est oui ou non un projet modèle qui pourra être réutilisé par d’autres utilisateurs. Les champs caractéristiques du nouveau projet sont alors préremplis avec les mêmes valeurs que celles du projet modèle. Les champs sont tous éditables.
+Case à cocher *"Est un projet type"* : lors de la création d’un nouveau projet, il est possible d’utiliser un modèle. C’est cette case qui permet de définir si ce projet est oui ou non un projet modèle qui pourra être réutilisé par d’autres utilisateurs. Les champs caractéristiques du nouveau projet sont alors préremplis avec les mêmes valeurs que celles du projet modèle. Les champs sont tous éditables.
 
 -----------------------------------------------------------------------------
 Paramétrage du projet et des signalements
@@ -75,30 +76,31 @@ Une fois sur le projet créé, vous allez pouvoir le paramétrer plus en détail
 Création de type de signalements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* **A partir du formulaire**
+### **A partir du formulaire**
 
 Les administrateurs d'un projet (et utilisateur de niveau de permission supérieur) ont la possibilité d'ajouter un type de signalement ou d'éditer un type de signalement (tant qu'aucun signalement n'est créé pour ce type).
 
 Le formulaire permet de définir un titre pour le type de signalement, une géométrie ainsi que des champs personnalisés :
-	Booléen (case à cocher)
-	Chaîne de caractères
-	Date (format jj/mm/aaaa)
-	Liste de valeurs : Il faut indiquer les valeurs en les séparant par une virgule. Ce champ prend la forme d’une liste déroulante avec un choix possible entre les valeurs renseignées.
-	Nombre entier
-	Nombre décimal
-	Texte multiligne
+
++   Booléen (case à cocher)
++   Chaîne de caractères
++   Date (format jj/mm/aaaa)
++   Liste de valeurs : Il faut indiquer les valeurs en les séparant par une virgule. Ce champ prend la forme d’une liste déroulante avec un choix possible entre les valeurs renseignées.
++   Nombre entier
++   Nombre décimal
++   Texte multiligne
 
 
-* **Paramétrage du style**
+### **Paramétrage du style**
 
 Lors de la création du champ personnalisé, il est possible d'affecter une couleur à chacune des valeurs de la liste de valeurs. Pour ce faire, il faut d'abord définir le champ personnalisé.
 
-	Pour les types de signalements linéaires ou polygones, un menu déroulant apparaît en haut de la page d'édition du type de signalement. Dans ce menu déroulant, sélectionner le champ personnalisé correspondant à la liste de valeurs. Devant chaque valeur de la liste apparaît alors un cadre permettant de modifier la couleur affectée à chaque valeur. Il n'est pas possible de personnaliser les couleurs pour plus d'une liste de valeurs. Le signalement prendra alors la couleur de la valeur à laquelle il est associé.
++   Pour les types de signalements linéaires ou polygones, un menu déroulant apparaît en haut de la page d'édition du type de signalement. Dans ce menu déroulant, sélectionner le champ personnalisé correspondant à la liste de valeurs. Devant chaque valeur de la liste apparaît alors un cadre permettant de modifier la couleur affectée à chaque valeur. Il n'est pas possible de personnaliser les couleurs pour plus d'une liste de valeurs. Le signalement prendra alors la couleur de la valeur à laquelle il est associé.
 
-	Pour les types de signalements ponctuels, le style (symbole et/ou couleur) peut être défini depuis la page d'accueil du projet, en cliquant sur le bouton "Editer la symbologie du type de signalement". Une nouvelle page permet de définir une couleur et un symbole par défaut, ou de sélectionner dans une liste de choix un des champs de type liste (s'il en existe pour ce type de signalements). Il est alors possible de définir une couleur et un symbole pour chaque valeur de la liste.
++   Pour les types de signalements ponctuels, le style (symbole et/ou couleur) peut être défini depuis la page d'accueil du projet, en cliquant sur le bouton "Editer la symbologie du type de signalement". Une nouvelle page permet de définir une couleur et un symbole par défaut, ou de sélectionner dans une liste de choix un des champs de type liste (s'il en existe pour ce type de signalements). Il est alors possible de définir une couleur et un symbole pour chaque valeur de la liste.
 
 
-* **A partir d'un GeoJSON**
+### **A partir d'un GeoJSON**
 
 Depuis la page d'accueil d'un projet, le bouton "Créer un type de signalements à partir d'un fichier GeoJSON" permet à l'utilisateur d’importer un fichier local. La structure du fichier va être automatiquement lue et le modèle de données du type de signalement est proposé à l'utilisateur à travers le formulaire d'édition. L'administrateur peut modifier, préciser et vérifier la géométrie, le titre du type de signalement et chacun des champs personnalisés.
 
@@ -124,7 +126,7 @@ Gestion des membres
 
 L’administrateur projet a la possibilité de rajouter des membres au projet parmi une liste déroulante. Pour chaque membre, un rôle lui est attribué en fonction du niveau d’autorisation défini dans les paramètres du projet.
 
-Pour ce qui concerne les niveaux d’autorisation, vous trouverez des informations ici : ….
+Pour ce qui concerne les niveaux d’autorisation, vous trouverez des informations ici : https://openig.readthedocs.io/fr/latest/geocontrib.html#utilisateurs-et-autorisations
 
 .. note:: **Les membres présents dans cette liste déroulante correspondent à des comptes qui se sont au moins connectés une fois sur l’application Geocontrib avec leur compte OPenIG.**
 
