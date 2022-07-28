@@ -30,7 +30,7 @@ Les Règles éditoriales pour publier vos ressources
 
 Amélioration des champs descriptifs avec Markdown
 
-Espace developpeurs/index
+Espace developpeurs
 
 Service API Ckan Requêter l’API CKAN Catalogue Requêter l’API CKAN DATA Construire une requête pour l’API Versions de l’API Authentification et clés Support JSONP Service WMS Service WFS Service CSW
 
@@ -40,5 +40,5 @@ conditions générales
 Espace consultation
 Espace utilisateurs
   	Espace producteurs
-  	Espace developpeurs/index
+  	Espace developpeurs
   	cgu

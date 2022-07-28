@@ -34,7 +34,7 @@ Il faut distinguer les rôles définis pour toute l'application (super admin), d
 * le contributeur ne peut pas archiver ses propres signalements, même si la visibilité lui est accordé
 * le modérateur peut modifier tous les signalements qui ont le statut "en publication en cours", "publiés" (ou "archivés" selon les caractéristiques du projet (P)) vers les statuts "brouillon", "publiés" (et "archivés" selon les caractéristiques du projet (P)).
 
-.. image:: geocontrib_roles_users.png
+.. image:: img/geocontrib_roles_users.png
 
 
 -----------------------------------------------------------------------------
@@ -43,7 +43,7 @@ Identification
 
 L'identification se fait avec vos identifiants OPenIG.
 
-.. image:: OPenIGConnect.png
+.. image:: img/OPenIGConnect.png
 
 Une fois connecté, 2 options selon vos droits :
 
@@ -54,7 +54,7 @@ Une fois connecté, 2 options selon vos droits :
 Création d'un projet
 -----------------------------------------------------------------------------
 
-.. image:: geocontrib_creation_projet.png
+.. image:: img/geocontrib_creation_projet.png
 
 Il faut remplir ici les éléments permettant de décrire votre projet : titre (obligatoire), description, imagette, délai avant archivage, délai avant suppression, visibilité des signalements publiés (obligatoire) et visibilité des signalements archivés (obligatoire).
 
@@ -68,7 +68,7 @@ Paramétrage du projet et des signalements
 
 Une fois sur le projet créé, vous allez pouvoir le paramétrer plus en détail : création de types de signalement, gestion des fonds de carte, des membres, etc.
 
-.. image:: geocontrib_param_projet.png
+.. image:: img/geocontrib_param_projet.png
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

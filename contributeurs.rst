@@ -16,9 +16,9 @@ Les organisations sont le plus souvent des personnes morales (autorités adminis
 
 .. note:: **La création d'une nouvelle organisation peut-être effectuée soit au moment de votre inscription comme utilisateur d'OPenIG, soit après la validation de votre profil Utilisateur par les Administrateurs d'OPenIG. Les demandes de statut de Contributeur ou de Référent sont soumises à la validation des Administrateurs. Il faut donc patienter un peu !**
 
-.. image:: OPenIGFirstConnect.PNG
+.. image:: img/OPenIGFirstConnect.PNG
 
-.. image:: DemandeOrgOPenIG.PNG
+.. image:: img/DemandeOrgOPenIG.PNG
 
 
 .. note:: **Par défaut, un Utilisateur qui s'inscrit avec un email personnel (gmail, ymail, hotmail,...) et dont le nom de domaine ne peut correspondre à l'organisation pour laquelle il demande de contribuer, ne peut se rattacher, contribuer ou devenir référent d'une Organisation.**
@@ -45,15 +45,15 @@ Créer une Organisation
 
 Toute demande de création d'une organisation est soumise à l'administrateur du site pour validation.
 
-.. image:: OPenIGAjoutOrga.png
+.. image:: img/OPenIGAjoutOrga.png
 
 La dénomination sociale est obligatoire.
 
-.. image:: Creation_orga1_openig.png
+.. image:: img/Creation_orga1_openig.png
 
 La description est facultative mais fortement conseillée, d'une part pour permettre de qualifier l'Organisation et sa démarche en matière d'ouverture des données publiques et géographiques et d'autre part pour permettre l'implémentation automatique d'une page web spécifique à propos de l'organisation.
 
-.. image:: Creation_orga2_openig.png
+.. image:: img/Creation_orga2_openig.png
 
 
 ----------------------------------------------
@@ -63,13 +63,13 @@ Editer la page d'une Organisation
 
 Pour éditer la page de son organisation, le Contributeur clique sur l'onglet ORGANISATIONS dans son espace d'administration.
 
-.. image:: Onglet_organisation_openig.png
+.. image:: img/Onglet_organisation_openig.png
 
 La première fois que le contributeur édite la page de son organisation, il lui sera demandé de définir le territoire de compétence de l'organisation. La création de ce territoire de compétences permet de bénéficier de fonctionnalités spatiales supplémentaires dans OPenIG. Cette demande est traitée par un administrateur de la plateforme.
 
-.. image:: Territoire_competence_OPenIG.PNG
+.. image:: img/Territoire_competence_OPenIG.PNG
 
-.. image:: Territoire_competence2_OPenIG.PNG
+.. image:: img/Territoire_competence2_OPenIG.PNG
 
 --------------------------
 Publier un jeu de données
@@ -77,7 +77,7 @@ Publier un jeu de données
 
 * Pour publier un jeu de donner le Contributeur se connecte avec son identifiant et mot de passe sur https://idgo.openig.org
 
-.. image:: InscriptionOPenIG.PNG
+.. image:: img/InscriptionOPenIG.PNG
 
 **La publication se fait en deux étapes successives :**
 
@@ -90,13 +90,13 @@ Etape n°1 : Renseigner les métadonnées
 
 **1.	Métadonnées simplifiées**
 
-.. image:: Edit_newdataset1_OPenIG.PNG
+.. image:: img/Edit_newdataset1_OPenIG.PNG
 
 .. note:: De nombreux mots-clés sont déjà répertoriés dans la base. Ils apparaissent dans une liste déroulante lorsque vous saisissez les premières lettres du mot. Mieux vaut choisir un mot clé existant, plutot que d'en choisir un nouveau afin de permettre de relier votre jeu de donnée à d'autres jeux similaires inscrits au catalogue d'OPenIG.
 
-.. image:: Edit_newdataset2_OPenIG.PNG
+.. image:: img/Edit_newdataset2_OPenIG.PNG
 
-.. image:: Edit_newdataset3_OPenIG.PNG
+.. image:: img/Edit_newdataset3_OPenIG.PNG
 
 **Les métadonnées obligatoires sont les suivantes :**
 
@@ -122,11 +122,11 @@ Etape n°1 : Renseigner les métadonnées
 
 Pour pouvoir compléter les métadonnées INSPIRE, il faut sélectionner le jeu de données et choisir "Editer la fiche de métadonnées INSPIRE".
 
-.. image:: INSPIRE_OPenIG.png
+.. image:: img/INSPIRE_OPenIG.png
 
 Tous les champs à compléter pour respecter la norme INSPIRE seront regroupés dans des rubriques : Auteurs et contacts pour la fiche de métadonnées; description des données; contacts pour la base de données; références géographiques et qualité des données; conditions légales d'accès et d'usage; ressources associées.
 
-.. image:: INSPIRE2_OPenIG.png
+.. image:: img/INSPIRE2_OPenIG.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Etape n°2 : Publier une ressource
@@ -138,11 +138,11 @@ Il existe quatre manières différentes d'ajouter un jeu de données :
 
 A l'aide du bouton Parcourir, vous pouvez déposer le fichier qui s’ajoute dans l’entrepôt de données d'OPenIG.
 
-.. image:: Upload_ressources_OPenIG.PNG
+.. image:: img/Upload_ressources_OPenIG.PNG
 
 Le **Titre** de votre fichier est automatiquement recopié, mais il est possible de modifier manuellement le nommage de ce jeu de donnée.
 
-.. image:: Upload_ressources1_OPenIG.PNG
+.. image:: img/Upload_ressources1_OPenIG.PNG
 
 
 Le format du fichier est automatiquement reconnu par IDGO.
@@ -152,7 +152,7 @@ Il faut préciser si le jeu de donnée est disponible en tant que Données brute
 
 Dans ce cas, IDGO va télécharger la ressource pour l'ajouter dans l’entrepôt de données.
 
-.. image:: Upload_ressources_URL_OPenIG.PNG
+.. image:: img/Upload_ressources_URL_OPenIG.PNG
 
 Ce mode de publication permet de synchroniser la ressource distante, selon une périodicité régulière à indiquer :
 
@@ -178,7 +178,7 @@ En cas d'erreur, les administrateurs d'OPenIG se chargeront de vous indiquer que
 Dans ce cas, la ressource n'est pas téléchargée dans OPenIG et vous indiquez précisement l'adresse URL de téléchargement de la donnée qui reste hebergée chez son producteur.
 Cette donnée apparait au catalogue d'OPenIG mais elle n'est pas hébergée dans son entrepot.
 
-.. image:: Upload_ressources_ref_URL_OPenIG.PNG
+.. image:: img/Upload_ressources_ref_URL_OPenIG.PNG
 
 **4.	Dépot FTP :**
 
@@ -191,11 +191,11 @@ Il faut se connecter au sFTP avec son logiciel (ex: FileZilla, voir photo ci-des
     - Port : 8322
     - Identifiant : vos identifiants OPenIG
 
-.. image:: depot_FTP_Filezilla.PNG
+.. image:: img/depot_FTP_Filezilla.PNG
 
 Les fichiers qui se trouvent sur le compte sFTP apparaîtront dans la liste déroulante. Ce mode de publication permet de synchroniser la ressource, selon une périodicité régulière à indiquer.
 
-.. image:: Upload_ressources_FTP_OPenIG.PNG
+.. image:: img/Upload_ressources_FTP_OPenIG.PNG
 
 .. note:: Il peut arriver que la connexion au serveur FTP ne fonctionne pas lorsque le Proxy de votre organisation bloque l’accès au compte FTP; Veuillez pour cela tester la connexion à partir d’un autre point d’accès internet sans Proxy (depuis un smartphone ou une connexion internet personnelle).
 
@@ -205,19 +205,19 @@ Styliser une couche
 
 Pour créer un style pour un jeu de donnée, il faut le sélectionner et "éditer les ressources associées".
 
-.. image:: style_OPenIG.png
+.. image:: img/style_OPenIG.png
 
 Il faut ensuite sélectionner la ressource à styliser du jeu de données et cliquer sur "editer".
 
-.. image:: editer_donnes_OPenIG.png
+.. image:: img/editer_donnes_OPenIG.png
 
 Puis cliquer sur "éditer la ressource géographique" lorsqu'on est sur la page de la ressource.
 
-.. image:: editer_donnes2_OPenIG.png
+.. image:: img/editer_donnes2_OPenIG.png
 
 Enfin il faudra choisir l'onglet "Styles" à droite de "Configuration générale".
 
-.. image:: style2_OPenIG.png
+.. image:: img/style2_OPenIG.png
 
 **Créer un style manuellement**
 
@@ -227,23 +227,23 @@ Manuellement et directement dans l'interface, il est possible de donner un nom p
 * Des représentations (couleur et opacité du fond et couleur et épaisseur du contour)
 * Des étiquettes
 
-.. image:: style_manuel_OPenIG.PNG
+.. image:: img/style_manuel_OPenIG.PNG
 
 A noter que l'utilisateur a, pour tous les styles importés ou créés dans cette interface, la possibilité de les exporter directement en SLD.
 
-.. image:: style4_sld_OPenIG.png
+.. image:: img/style4_sld_OPenIG.png
 
 **Créer un style avec un SLD**
 
 Il est possible d'importer un SLD créé au préalable pour la ressource. Il suffit de cliquer sur "Importer un SLD" en haut à droite de la fenêtre de style et de coller le fichier SLD.
 
-.. image:: style3_sld_OPenIG.PNG
+.. image:: img/style3_sld_OPenIG.PNG
 
-.. image:: style_sld_OPenIG.PNG
+.. image:: img/style_sld_OPenIG.PNG
 
 Enfin enregistrez votre style.
 
-.. image:: style2_sld_OPenIG.PNG
+.. image:: img/style2_sld_OPenIG.PNG
 
 --------------------------------------------------
 Mettre à jour un jeu de données ou une ressource
@@ -251,7 +251,7 @@ Mettre à jour un jeu de données ou une ressource
 
 Les données publiées peuvent être mises à jour après leur publication, que la modification porte sur un jeu données dans son ensemble, ou sur l’une des ressources qu’il contient (Données brutes ou ressources associées).
 
-.. image:: Edit_donnees_OPenIG.PNG
+.. image:: img/Edit_donnees_OPenIG.PNG
 
 L’actualisation d’une ressource existante permet d’en mettre à jour le contenu sans changer l’emplacement qui lui est assigné, c’est-à-dire son lien hypertexte (aussi appelé URL). Le fait d’actualiser une ressource (plutôt que de la supprimer et d’en créer ensuite une nouvelle) permet de conserver l’historique des téléchargements de cette ressource. Cela évite aussi de créer des liens rompus sur Internet, qui meneront à une erreur HTTP 404, vu que la page web n’existera plus et sera introuvable par le serveur.
 
@@ -263,11 +263,11 @@ Aller sur le site https://idgo.openig.org et rechercher vos jeux de données.
 
 Il est possible de supprimer un ensemble de données (Dataset) comprenant les metadonnées; ou seulement les ressources et fichiers brutes associés à un ensemble de données. Pour cela selectionner l’ensemble de données que vous souhaitez supprimer.
 
-.. image:: Supp_donnees_OPenIG.PNG
+.. image:: img/Supp_donnees_OPenIG.PNG
 
 Pour confirmer, veuillez réécrire le nom du jeu de données à supprimer.
 
-.. image:: Supp2_donnees_OPenIG.PNG
+.. image:: img/Supp2_donnees_OPenIG.PNG
 
 Il est recomandé de Copier le titre de l’ensemble de donnée (Ctrl C) afin de conserver la même orthographe, puis coller ce titre dans la fenêtre qui s’affichera suite à la confirmation de la suppression.
 
@@ -279,15 +279,15 @@ Valoriser un ensemble de données en indexant leur réutilisation
 
 La fonctionnalité "réutilisation" (Trouver des données -> Réutilisation) permet d'indexer les applications/projets existants et réutilisants des données issues du catalogue d'OPenIG. Vous pouvez visualiser celles existantes sur cette page.
 
-.. image:: reutilisation1.PNG
+.. image:: img/reutilisation1.PNG
 
 Lorsqu'une donnée est réutilisée, nous vous invitions à créer une "réutilisation" afin de valoriser vos projets et/ou vos données . Pour en créer une, il vous suffit de cliquer sur "Ajouter une réutilisation" et de remplir le formulaire.
 
-.. image:: reutilisation2.PNG
+.. image:: img/reutilisation2.PNG
 
 La réutilisation sera aussi visible sur la page du jeu de données :
 
-.. image:: reutilisation3.PNG
+.. image:: img/reutilisation3.PNG
 
 -------------------------------------------------------
 Datastore et données intelligentes
@@ -336,11 +336,11 @@ Une carte peut automatiquement être générée à partir de vos données tabula
 
 L’option « Marqueurs de regroupement » vous permet de « fusionner » visuellement les données proches.
 
-.. image:: map_tabdata.PNG
+.. image:: img/map_tabdata.PNG
 
 Un graphique peut également être généré en sélectionnant les colonnes à assigner aux axes ainsi que le type de graphique parmis la liste disponible. Il est possible de combiner plusieurs "séries" au sein d'un même graphique.
 
-.. image:: graph_tabdata.PNG
+.. image:: img/graph_tabdata.PNG
 
 -------------------------------------------------------
 Faire remonter vos données sur Data.Gouv.fr
@@ -367,7 +367,7 @@ La procédure est relativemment simple. Il suffit de la mettre en place une fois
 
 - En haut à droite de votre espace d'administration DataGouv, cliquez sur plus, puis AJOUTER un MOISSONNEUR.
 
-.. image:: Capture_Moissonneur1.PNG
+.. image:: img/Capture_Moissonneur1.PNG
 
 - Choisissez "Publier en tant qu’organisation", cliquez sur SUIVANT.
 
@@ -381,7 +381,7 @@ Exemple 1 : https://ckan.openig.org/organization/departement-du-gard -> Identifi
 
 Example 2 : https://ckan.openig.org/organization/departement-des-pyrenees-orientales -> identifiant du département des Pyrénées Orientales
 
-.. image:: Capture_Moissonneur3_OPenIG.PNG
+.. image:: img/Capture_Moissonneur3_OPenIG.PNG
 
 - Cochez la case **ACTIF**.
 - Cliquez sur **ENREGISTRER.**

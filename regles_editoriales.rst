@@ -66,10 +66,10 @@ Pour créer une liste non ordonnée ::
 
 Vous pouvez afficher une image dans vos descriptifs. Attention, la taille n'est pas paramétrable et l'image doit déjà être disponible en ligne quelque part ::
 
-   .. image:: OPenIGConnect.PNG
+   .. image:: img/OPenIGConnect.PNG
 
 
-.. image:: OPenIGConnect.PNG
+.. image:: img/OPenIGConnect.PNG
 
 
 === Liens ===

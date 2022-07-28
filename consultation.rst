@@ -15,7 +15,7 @@ Rechercher des données sur OPenIG
 
 Pour de meilleurs résultats, OPenIG permet de « filtrer » les données, d'effectuer des recherches par thématique, selon la fréquence de mise à jour, par format ou uniquement les jeux de données associés à une organisation.
 
-.. image:: Trouver_donnees.png
+.. image:: img/Trouver_donnees.png
 
 
 L’ensemble de ces « filtres » peuvent être cumulés pour affiner les résultats avec un moteur de recherche “textuel”

@@ -16,9 +16,9 @@ S'inscrire sur OPenIG
 
  .. note:: *Le nom d'utilisateur doit contenir uniquement des caractères alphanumériques en minuscules (ascii) et ces symboles : -_*
 
-.. image:: OPenIGConnect.png
+.. image:: img/OPenIGConnect.png
 
-.. image:: OPenIGInscription.png
+.. image:: img/OPenIGInscription.png
 
 - l'Utilisateur doit ensuite valider son inscription en cliquant sur le lien reçu par courriel, sur sa boite aux lettres de courrier électronique.
 
@@ -31,7 +31,7 @@ De nombreuses fonctionnalités participatives sont proposées :
 - Contacter les administrateurs d'OPenIG : https://www.openig.org/webform-contact-anonyme
 - Contacter directement le producteur ou le diffuseur d'un jeu de données
 - Suivre/s’abonner à un jeu de données, une thématique ou une organisation
-.. image:: VuesOPenIG.png
+.. image:: img/VuesOPenIG.png
 
 - Demander l'accès aux administrateurs à des données réservées sur accès restreint,
 - Accéder aux données et services autorisés pour une organisation.

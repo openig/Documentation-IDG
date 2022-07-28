@@ -9,7 +9,7 @@ Le catalogue des données, les ressources et les outils disponibles sont amenés
  consultation
  utilisateurs
  contributeurs
- developpeurs/index
+ developpeurs
  geocontrib
  cadre_legal
  regles_editoriales

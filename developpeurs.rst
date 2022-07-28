@@ -365,19 +365,19 @@ Pour accéder aux flux OGC (Web Map Service et Web Feature Service) des données
 
 Lorsqu'on se situe sur la fiche d'un jeu de données, il suffit de cliquer soit directement sur la ressource soit sur l'oeil.
 
-.. image:: acces_flux.png
+.. image:: img/acces_flux.png
 
 Il faut ensuite sélectionner "API Géo".
 
-.. image:: API_geo.png
+.. image:: img/API_geo.png
 
 .. note:: Si le bouton "API Géo" ou l'aperçu cartographique n'apparaît pas, cela peut provenir du fait que la ressource géographique déposée n'a pas été reconnue comme telle. Cela est souvent dû au format choisi lors de la publication de la ressource. Attention, pour un Shapefile zippé il faut choisir le format "ESRI Shapefile (Fichier ZIP)"" et non pas "ZIP".
 
-.. image:: Shapefile_zip.PNG
+.. image:: img/Shapefile_zip.PNG
 
 Une fois que vous avez cliqué, un menu contextuel apparait pour vous donner toutes les informations que vous souhaitez.
 
-.. image:: API_geo2.png
+.. image:: img/API_geo2.png
 
 Pour une utilisation dans QGIS, il suffit d'ajouter une nouvelle connexion WMS ou WFS en collant l'URL suivante :
  "https://mapserver.openig.org/maps/" + l'identifiant de l'organisation
@@ -404,7 +404,7 @@ Le tuilage des couches n’est pas pré-calculé ; il est calculé à l’affich
 
 Liste des couches disponibles :
 
-.. image:: flux_mapcache.png
+.. image:: img/flux_mapcache.png
 
 En plus de cette documentation, des **tutoriels vidéos** existent sur le site internet d'OPenIG (service accessible uniquement aux adhérents) : https://www.openig.org/flux
 
@@ -424,7 +424,7 @@ Sinon directement via cette URL : https://www.openig.org/creer-sa-carte
 
 Via cette page, vous avez accès au MViewer Studio :
 
-.. image:: mviewer_studio.PNG
+.. image:: img/mviewer_studio.PNG
 
 .. Attention:: L'outil MViewer a été développé avec le serveur cartographique GeoServer. OPenIG utilisant MapServer, certaines fonctionnalités ne sont pas disponibles. La plupart des paramétrages pourra se faire mais via des fichiers externes stockés sur serveur et non pas directement avec l'interface Studio.
 
@@ -448,33 +448,33 @@ Exemple de page d'aide .HTML de base::
 
 *Ajout d'une thématique :*
 
-.. image:: mviewer_thematiques.PNG
+.. image:: img/mviewer_thematiques.PNG
 
 *Ajout d'une donnée :*
 
-.. image:: mviewer_donnees.PNG
+.. image:: img/mviewer_donnees.PNG
 
 *Paramétrage de la donnée :*
 
-.. image:: mviewer_donnees_modif.PNG
+.. image:: img/mviewer_donnees_modif.PNG
 
 .. Attention:: Il ne faut pas oublier de cocher la dernière case ("utiliser le proxy") afin que la couche puisse s'afficher dans le visualiseur.
 
 La rubrique "fiche" va vous permettre de modifier la fiche d'information relative à la ressource lorsque vous allez sélectionner une entité.
 Du fait de MapServer, la seule possibilité de paramétrer cette fiche sera d'appeler un fichier .MST stocké sur votre serveur. Si vous souhaitez en savoir plus : https://mviewerdoc.readthedocs.io/fr/latest/doc_tech/config_tpl.html
 
-.. image:: mviewer_donnees_modif2.PNG
+.. image:: img/mviewer_donnees_modif2.PNG
 
 L'affichage peut se personnaliser mais encore une fois avec des fichiers externes : URL d'un fichier .SLD ou URL d'une image pour la légende.
 
-.. image:: mviewer_donnees_modif3.PNG
+.. image:: img/mviewer_donnees_modif3.PNG
 
 Les autres rubriques (filtre, choix, recherche) ne sont pas paramétrables dans notre cas.
 
 Enfin, vous allez pouvoir sauvegarder votre application sur le serveur, télécharger le fichier de paramétrage .XML de votre application et prévisualiser l'application définie.
 "Charger" vous permettra d'utiliser un fichier .XML stocké en local ou de charger une application sauvegardée sur le serveur.
 
-.. image:: mviewer_admin.PNG
+.. image:: img/mviewer_admin.PNG
 
 Liens utiles :
 
