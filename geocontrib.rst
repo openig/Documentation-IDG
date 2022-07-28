@@ -101,8 +101,9 @@ Lors de la création du champ personnalisé, il est possible d'affecter une coul
    +   Pour les types de signalements linéaires ou polygones, un menu déroulant apparaît en haut de la page d'édition du type de signalement. Dans ce menu déroulant, sélectionner le champ personnalisé correspondant à la liste de valeurs. Devant chaque valeur de la liste apparaît alors un cadre permettant de modifier la couleur affectée à chaque valeur. Il n'est pas possible de personnaliser les couleurs pour plus d'une liste de valeurs. Le signalement prendra alors la couleur de la valeur à laquelle il est associé.
    +   Pour les types de signalements ponctuels, le style (symbole et/ou couleur) peut être défini depuis la page d'accueil du projet, en cliquant sur le bouton "Editer la symbologie du type de signalement". Une nouvelle page permet de définir une couleur et un symbole par défaut, ou de sélectionner dans une liste de choix un des champs de type liste (s'il en existe pour ce type de signalements). Il est alors possible de définir une couleur et un symbole pour chaque valeur de la liste.
 
-
+""""""""""""""""""""""""""
 **A partir d'un GeoJSON**
+""""""""""""""""""""""""""
 
 Depuis la page d'accueil d'un projet, le bouton "Créer un type de signalements à partir d'un fichier GeoJSON" permet à l'utilisateur d’importer un fichier local. La structure du fichier va être automatiquement lue et le modèle de données du type de signalement est proposé à l'utilisateur à travers le formulaire d'édition. L'administrateur peut modifier, préciser et vérifier la géométrie, le titre du type de signalement et chacun des champs personnalisés.
 
@@ -150,7 +151,9 @@ Pour les signalements de type ponctuel, l'utilisateur peut également :
 
 Pour chaque signalement, il y a la possibilité d’ajouter une pièce-jointe (par exemple une photographie de terrain, d'une copie d'un arrêté ou tout document permettant de préciser les informations portées par le signalement) ainsi que de créer une liaison avec un autre signalement.
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 **Les liaisons entre signalements :**
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Pour ajouter une liaison depuis le formulaire d'édition d'un signalement, il faut cliquer sur le bouton "Ajouter une liaison" dans la rubrique "Signalements liés", et sélectionner un autre signalement appartenant au même type de signalement.
 
