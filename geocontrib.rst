@@ -73,10 +73,10 @@ Une fois sur le projet créé, vous allez pouvoir le paramétrer plus en détail
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Création de type de signalements
+Création d'un type de signalements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-### **A partir du formulaire**
+###   A partir du formulaire
 
 Les administrateurs d'un projet (et utilisateur de niveau de permission supérieur) ont la possibilité d'ajouter un type de signalement ou d'éditer un type de signalement (tant qu'aucun signalement n'est créé pour ce type).
 
