@@ -1,5 +1,5 @@
 ====================
-Application Géocontrib - Outil de signalement collaboratif
+Application Géocontrib
 ====================
 
 
@@ -143,15 +143,15 @@ Les utilisateurs contributeurs ou de niveau supérieur peuvent ajouter des signa
 
 Le formulaire d'édition permet à l'utilisateur de saisir un nom, un statut, une description ainsi que de renseigner l'ensemble des informations relatives aux champs personnalisés définis pour ce type de signalement.
 
-Pour tous les types de signalements, une interface cartographique permet de numériser le signalement. L'utilisateur bénéficie d'une fonction de recherche et il a la possibilité de jouer sur l'affichage des fonds de carte configurés par l'administrateur du projet (ordre des couches, opacités, etc).
+Pour tous les types de signalements, une interface cartographique permet de **numériser le signalement**. L'utilisateur bénéficie d'une fonction de recherche et il a la possibilité de jouer sur l'affichage des fonds de carte configurés par l'administrateur du projet (ordre des couches, opacités, etc).
 
 Pour les signalements de type ponctuel, l'utilisateur peut également :
 
-* utiliser sa géolocalisation en cliquant sur le bouton "Positionner le signalement à partir de votre géolocalisation"
-* utiliser une photographie contenant des informations de localisation (tags EXIF associés à une photographie prise avec un appareil équipé d'un GPS) en cliquant sur le bouton "Importer une image géoréférencée"
+* **utiliser** sa géolocalisation en cliquant sur le bouton "Positionner le signalement à partir de votre géolocalisation"
+* **utiliser** une photographie contenant des informations de localisation (tags EXIF associés à une photographie prise avec un appareil équipé d'un GPS) en cliquant sur le bouton "Importer une image géoréférencée"
 
 
-Pour chaque signalement, il y a la possibilité d’ajouter une pièce-jointe (par exemple une photographie de terrain, d'une copie d'un arrêté ou tout document permettant de préciser les informations portées par le signalement) ainsi que de créer une liaison avec un autre signalement.
+Pour chaque signalement, il y a la possibilité d’ajouter une *pièce-jointe* (par exemple une photographie de terrain, d'une copie d'un arrêté ou tout document permettant de préciser les informations portées par le signalement) ainsi que de créer une liaison avec un autre signalement.
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 **Les liaisons entre signalements :**
@@ -183,7 +183,7 @@ Consulter un projet
 
 La page de consultation des signalements d'un projet propose 2 vues :
 
-Une vue cartographique :
+**Une vue cartographique :**
 
   * présentation de l'ensemble des signalement visibles de l'utilisateur (dépend de ses autorisations par rapport au projet).
   * possibilité de zoomer et de se déplacer dans la carte,
@@ -191,14 +191,14 @@ Une vue cartographique :
   * dans cette info-bulle, le clic sur le titre renvoie vers la fiche détaillée du signalement,
   * toujours dans cette info-bulle, le clic sur le type de signalements renvoie vers la fiche détaillée du signalement.
 
-Une vue tabulaire paginée :
+**Une vue tabulaire paginée :**
 
   * présentation des caractéristiques principales : statut, type de signalements, titre, date de dernière modification, auteur du signalement et dernier éditeur,
   * case à cocher, permettant à l'utilisateur courant de sélectionner les signalements dont il est l'auteur (ou tous les signalements s'il est administrateur projet ou super-utilisateur). Il peut sélectionner les signalements qu'il souhaite supprimer et cliquer sur l'icône corbeille en haut à droite pour les effacer.
   * le clic sur le nom renvoie vers la fiche détaillée du signalement,
   * le clic sur le type renvoie vers la fiche détaillée du signalement,
 
-Chacune d'entre elles propose un bloc "Filtres" permettant à l'utilisateur de réduire le nombre de signalements à ceux qu'il recherche :
+Chacune d'entre elles propose un bloc *"Filtres"* permettant à l'utilisateur de réduire le nombre de signalements à ceux qu'il recherche :
 
   * filtre sur le type de signalements ;
   * filtre sur le statut des signalements ;
@@ -209,7 +209,7 @@ Chacune d'entre elles propose un bloc "Filtres" permettant à l'utilisateur de r
 Suivi d'un projet
 -----------------------------------------------------------------------------
 
-Pour chacun des projets, les utilisateurs possédant un compte dans l'application et authentifiés, peuvent s'abonner aux activités des projets qu'ils ont le droit de visiter depuis leur page d'accueil, grâce au bouton « S'abonner au projet ».
+Pour chacun des projets, les utilisateurs possédant un compte dans l'application et authentifiés, peuvent s'abonner aux activités des projets qu'ils ont le droit de visiter depuis leur page d'accueil, grâce au bouton *« S'abonner au projet »*.
 
 Au clic sur le bouton, une popup s'ouvre et propose à l'utilisateur de s'abonner au projet. S'il clique une seconde fois, la popup propose cette fois le désabonnement.
 

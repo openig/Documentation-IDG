@@ -1,5 +1,5 @@
 ====================
-Application Widget - Catalogue en marque blanche
+Application Widget Catalogue
 ====================
 
 Le site d'OPenIG permet d'intégrer un **catalogue de données en marque blanche sur un site web externe**. Cette fonctionnalité est également intitulée 'widget'. Elle offre une solution technique pour valoriser le catalogue de données d'une organisation et plus largement de tout sous ensemble du catalogue de données OPenIG filtré par une ou plusieurs facettes (organisations, thématiques, formats, licences, recherche par mot clé...).

@@ -1,5 +1,5 @@
 ====================
-Application MViewer - Valoriser ses données
+Application MViewer
 ====================
 
 
@@ -14,7 +14,10 @@ Via cette page, vous avez accès au MViewer Studio :
 
 .. Attention:: L'outil MViewer a été développé avec le serveur cartographique GeoServer. OPenIG utilisant MapServer, certaines fonctionnalités ne sont pas disponibles. La plupart des paramétrages pourra se faire mais via des fichiers externes stockés sur serveur et non pas directement avec l'interface Studio.
 
-**Onglet Application :**
+-----------------------------------------------------------------------------
+Onglet Application :
+-----------------------------------------------------------------------------
+
 
 Spécification des paramètres globaux de l'application (emprise géographique, titre, couleur, etc.). Pour pouvoir utiliser une page d'aide ainsi qu'un logo spécifique, ceux-ci doivent être déposés sur un serveur. Il suffira ici de renseigner l'adresse URL de ces fichiers.
 
@@ -30,7 +33,10 @@ Exemple de page d'aide .HTML de base::
         <div role="tabpanel" class="tab-pane" id="h_credits"><h4 i18n="help.modal.credits">Crédits </h4>`Application réalisée par ... </div>
     </div>
 
-**Onglet Thématiques & données :**
+-----------------------------------------------------------------------------
+Onglet Thématiques & données :
+-----------------------------------------------------------------------------
+
 
 *Ajout d'une thématique :*
 
@@ -62,7 +68,8 @@ Enfin, vous allez pouvoir sauvegarder votre application sur le serveur, téléch
 
 .. image:: img/mviewer_admin.PNG
 
-Liens utiles :
+
+**Liens utiles :**
 
 * Github de MViewer : https://github.com/geobretagne/mviewer
 
